@@ -1,29 +1,74 @@
 {
   "config": {
-    "title": "Margins: Technical Overview",
-    "description": "How I Built Margins",
+    "title": "Technically Docs",
+    "description": "Technical explainers on my projects and programming experience",
     "menu": [],
     "version": "0.1.0",
     "repository": "https://github.com/alexliusq/margins-me-frontend",
     "native": false,
     "themeConfig": {},
     "separator": "-",
-    "src": "./docs",
+    "src": "./src",
     "debug": true
   },
   "entries": [
     {
-      "key": "docs/docs/index.mdx",
+      "key": "src/src/docs/index.md",
+      "value": {
+        "name": "Welcome",
+        "route": "/",
+        "id": "69e828a0f5de127ac8242566cf2b02e8",
+        "filepath": "src/src/docs/index.md",
+        "fullpath": "/Users/Alex/projects/technical-docs/src/docs/index.md",
+        "link": "https://github.com/alexliusq/margins-me-frontend/edit/master/src/src/src/docs/index.md",
+        "hidden": false,
+        "slug": "src-src-docs-index",
+        "menu": "",
+        "headings": []
+      }
+    },
+    {
+      "key": "src/src/docs/college/index.mdx",
       "value": {
         "name": "Overview",
-        "route": "/",
-        "link": "https://github.com/alexliusq/margins-me-frontend/edit/master/explainer/docs/docs/docs/index.mdx",
-        "id": "73498ad0e1e62a714b08085d318f9de1",
-        "filepath": "docs/docs/index.mdx",
-        "fullpath": "/Users/Alex/projects/margins-me/margins-me-frontend/explainer/docs/index.mdx",
+        "route": "/college/overview",
+        "menu": "College",
+        "id": "596a7eba70629bf45c56ebc7d13b9fd3",
+        "filepath": "src/src/docs/college/index.mdx",
+        "fullpath": "/Users/Alex/projects/technical-docs/src/docs/college/index.mdx",
+        "link": "https://github.com/alexliusq/margins-me-frontend/edit/master/src/src/src/docs/college/index.mdx",
         "hidden": false,
-        "slug": "docs-docs-index",
-        "menu": "",
+        "slug": "src-src-docs-college-index",
+        "headings": []
+      }
+    },
+    {
+      "key": "src/src/docs/college/stat-459.mdx",
+      "value": {
+        "name": "Statistics 459 Advanced Data Analysis",
+        "route": "/college/stat-459",
+        "menu": "College",
+        "id": "af048a5d9f6bdef04a87fb870cd24f4f",
+        "filepath": "src/src/docs/college/stat-459.mdx",
+        "fullpath": "/Users/Alex/projects/technical-docs/src/docs/college/stat-459.mdx",
+        "link": "https://github.com/alexliusq/margins-me-frontend/edit/master/src/src/src/docs/college/stat-459.mdx",
+        "hidden": false,
+        "slug": "src-src-docs-college-stat-459",
+        "headings": []
+      }
+    },
+    {
+      "key": "src/src/docs/margins/index.mdx",
+      "value": {
+        "name": "Overview",
+        "route": "/margins/overview",
+        "menu": "Margins",
+        "id": "6336b3348e45929f6c852b1c6c375c93",
+        "filepath": "src/src/docs/margins/index.mdx",
+        "fullpath": "/Users/Alex/projects/technical-docs/src/docs/margins/index.mdx",
+        "link": "https://github.com/alexliusq/margins-me-frontend/edit/master/src/src/src/docs/margins/index.mdx",
+        "hidden": false,
+        "slug": "src-src-docs-margins-index",
         "headings": [
           {
             "slug": "the-stack-and-the-infrastructure",
