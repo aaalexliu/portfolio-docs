@@ -43,21 +43,6 @@
       }
     },
     {
-      "key": "src/src/docs/college/stat-459.mdx",
-      "value": {
-        "name": "Statistics 459 Advanced Data Analysis",
-        "route": "/college/stat-459",
-        "menu": "College",
-        "id": "af048a5d9f6bdef04a87fb870cd24f4f",
-        "filepath": "src/src/docs/college/stat-459.mdx",
-        "fullpath": "/Users/Alex/projects/technical-docs/src/docs/college/stat-459.mdx",
-        "link": "https://github.com/alexliusq/margins-me-frontend/edit/master/src/src/src/docs/college/stat-459.mdx",
-        "hidden": false,
-        "slug": "src-src-docs-college-stat-459",
-        "headings": []
-      }
-    },
-    {
       "key": "src/src/docs/margins/index.mdx",
       "value": {
         "name": "Overview",
@@ -84,6 +69,27 @@
             "slug": "frontend-github",
             "depth": 3,
             "value": "Frontend:  (Github)"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/src/docs/college/stat-495/index.mdx",
+      "value": {
+        "name": "Statistics 495 Advanced Data Analysis",
+        "route": "/college/stat-495",
+        "menu": "College",
+        "id": "261c006a13ab738be13bb21c2b8ccbe0",
+        "filepath": "src/src/docs/college/stat-495/index.mdx",
+        "fullpath": "/Users/Alex/projects/technical-docs/src/docs/college/stat-495/index.mdx",
+        "link": "https://github.com/alexliusq/margins-me-frontend/edit/master/src/src/src/docs/college/stat-495/index.mdx",
+        "hidden": false,
+        "slug": "src-src-docs-college-stat-495-index",
+        "headings": [
+          {
+            "slug": "yelp-dataset-challenge",
+            "depth": 1,
+            "value": "Yelp Dataset Challenge"
           }
         ]
       }

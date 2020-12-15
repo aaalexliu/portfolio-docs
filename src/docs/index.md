@@ -3,4 +3,4 @@ name: Welcome
 route: / 
 ---
 
-My projects and stuff worth displaying. I guess college counts.
+My projects, papers, technical observations - work that I can display publically. Built using Gatsby and Docz.
