@@ -1,0 +1,48 @@
+{
+  "config": {
+    "title": "Margins: Technical Overview",
+    "description": "How I Built Margins",
+    "menu": [],
+    "version": "0.1.0",
+    "repository": "https://github.com/alexliusq/margins-me-frontend",
+    "native": false,
+    "themeConfig": {},
+    "separator": "-",
+    "src": "./docs",
+    "debug": true
+  },
+  "entries": [
+    {
+      "key": "docs/docs/index.mdx",
+      "value": {
+        "name": "Overview",
+        "route": "/",
+        "link": "https://github.com/alexliusq/margins-me-frontend/edit/master/explainer/docs/docs/docs/index.mdx",
+        "id": "73498ad0e1e62a714b08085d318f9de1",
+        "filepath": "docs/docs/index.mdx",
+        "fullpath": "/Users/Alex/projects/margins-me/margins-me-frontend/explainer/docs/index.mdx",
+        "hidden": false,
+        "slug": "docs-docs-index",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "the-stack-and-the-infrastructure",
+            "depth": 2,
+            "value": "The Stack and the Infrastructure"
+          },
+          {
+            "slug": "backend-github",
+            "depth": 3,
+            "value": "Backend  (Github)"
+          },
+          {
+            "slug": "frontend-github",
+            "depth": 3,
+            "value": "Frontend:  (Github)"
+          }
+        ]
+      }
+    }
+  ],
+  "props": []
+}
