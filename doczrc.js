@@ -1,9 +1,9 @@
 export default {
   // base: './projects/margins-me',
-  src: './docs',
+  src: './src',
   debug: true,
   // repository: 'https://github.com/alexliusq/margins-me-frontend',
-  title: "Margins: Technical Overview",
-  description: "How I Built Margins",
+  title: "Technically Docs",
+  description: "Technical explainers on my projects and programming experience",
   // link: "ssdsfas"
 }

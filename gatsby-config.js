@@ -2,7 +2,7 @@ console.log(process.env.NODE_ENV);
 const NODE_ENV = process.env.NODE_ENV;
 
 module.exports = {
-  pathPrefix: NODE_ENV === 'production' ? '/projects/margins' : null,
+  pathPrefix: NODE_ENV === 'production' ? '/projects' : '/',
   siteMetadata: {
     title: `How I Built Margins`,
     description: `A technical overview of how I built Margins, one place for all your marginalia`,
