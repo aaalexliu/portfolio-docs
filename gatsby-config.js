@@ -4,8 +4,8 @@ const NODE_ENV = process.env.NODE_ENV;
 module.exports = {
   pathPrefix: NODE_ENV === 'production' ? '/portfolio' : '/',
   siteMetadata: {
-    title: `How I Built Margins`,
-    description: `A technical overview of how I built Margins, one place for all your marginalia`,
+    title: `Alex's Portfolio`,
+    description: `Everything fit to print`,
     author: `Alex Liu`,
   },
   plugins: [
