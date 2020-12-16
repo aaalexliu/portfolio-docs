@@ -15,5 +15,5 @@ Classification Trees and Random Forests. Unfortunately, after valiant efforts,
 even with the new sentiment factors we added, the best model only achieved 3.5%
 better accuracy than a baseline majority prediction.
 
-Full pdf of our report: [link](../projects/pdfs/STAT495_Final_Report_Group_E.pdf)
+Full pdf of our report: [link](../pdfs/STAT495_Final_Report_Group_E.pdf)
 ![First Page of Report](./report-preview.png)

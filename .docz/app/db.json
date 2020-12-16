@@ -19,7 +19,7 @@
         "route": "/",
         "id": "69e828a0f5de127ac8242566cf2b02e8",
         "filepath": "src/src/docs/index.md",
-        "fullpath": "/Users/Alex/projects/technical-docs/src/docs/index.md",
+        "fullpath": "/Users/Alex/projects/portfolio-docs/src/docs/index.md",
         "link": "https://github.com/alexliusq/margins-me-frontend/edit/master/src/src/src/docs/index.md",
         "hidden": false,
         "slug": "src-src-docs-index",
@@ -28,30 +28,30 @@
       }
     },
     {
-      "key": "src/src/docs/college/index.mdx",
+      "key": "src/src/docs/college/index.md",
       "value": {
         "name": "Overview",
         "route": "/college/overview",
         "menu": "College",
-        "id": "596a7eba70629bf45c56ebc7d13b9fd3",
-        "filepath": "src/src/docs/college/index.mdx",
-        "fullpath": "/Users/Alex/projects/technical-docs/src/docs/college/index.mdx",
-        "link": "https://github.com/alexliusq/margins-me-frontend/edit/master/src/src/src/docs/college/index.mdx",
+        "id": "b24ff39eb6c52473e9c403a80e6691d9",
+        "filepath": "src/src/docs/college/index.md",
+        "fullpath": "/Users/Alex/projects/portfolio-docs/src/docs/college/index.md",
+        "link": "https://github.com/alexliusq/margins-me-frontend/edit/master/src/src/src/docs/college/index.md",
         "hidden": false,
         "slug": "src-src-docs-college-index",
         "headings": []
       }
     },
     {
-      "key": "src/src/docs/margins/index.mdx",
+      "key": "src/src/docs/margins/index.md",
       "value": {
         "name": "Overview",
         "route": "/margins/overview",
         "menu": "Margins",
-        "id": "6336b3348e45929f6c852b1c6c375c93",
-        "filepath": "src/src/docs/margins/index.mdx",
-        "fullpath": "/Users/Alex/projects/technical-docs/src/docs/margins/index.mdx",
-        "link": "https://github.com/alexliusq/margins-me-frontend/edit/master/src/src/src/docs/margins/index.mdx",
+        "id": "e983e09faa83b24c5f565960f7d682e9",
+        "filepath": "src/src/docs/margins/index.md",
+        "fullpath": "/Users/Alex/projects/portfolio-docs/src/docs/margins/index.md",
+        "link": "https://github.com/alexliusq/margins-me-frontend/edit/master/src/src/src/docs/margins/index.md",
         "hidden": false,
         "slug": "src-src-docs-margins-index",
         "headings": [
@@ -74,15 +74,46 @@
       }
     },
     {
-      "key": "src/src/docs/college/stat-495/index.mdx",
+      "key": "src/src/docs/finance/cornell-stock-pitch/index.md",
+      "value": {
+        "name": "Cornell Stock Pitch Competition: GOOS",
+        "route": "/finance/cornell-stock-pitch-goos",
+        "menu": "Finance",
+        "id": "083ff8839822e61b5cbb95559c94fc10",
+        "filepath": "src/src/docs/finance/cornell-stock-pitch/index.md",
+        "fullpath": "/Users/Alex/projects/portfolio-docs/src/docs/finance/cornell-stock-pitch/index.md",
+        "link": "https://github.com/alexliusq/margins-me-frontend/edit/master/src/src/src/docs/finance/cornell-stock-pitch/index.md",
+        "hidden": false,
+        "slug": "src-src-docs-finance-cornell-stock-pitch-index",
+        "headings": [
+          {
+            "slug": "cornell-stock-pitch-competition-goos",
+            "depth": 1,
+            "value": "Cornell Stock Pitch Competition: GOOS"
+          },
+          {
+            "slug": "thesis-slide",
+            "depth": 3,
+            "value": "Thesis Slide:"
+          },
+          {
+            "slug": "scenario-analysis-slide",
+            "depth": 3,
+            "value": "Scenario Analysis Slide:"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/src/docs/college/stat-495/index.md",
       "value": {
         "name": "Statistics 495 Advanced Data Analysis",
         "route": "/college/stat-495",
         "menu": "College",
-        "id": "261c006a13ab738be13bb21c2b8ccbe0",
-        "filepath": "src/src/docs/college/stat-495/index.mdx",
-        "fullpath": "/Users/Alex/projects/technical-docs/src/docs/college/stat-495/index.mdx",
-        "link": "https://github.com/alexliusq/margins-me-frontend/edit/master/src/src/src/docs/college/stat-495/index.mdx",
+        "id": "f8ac3249ea9ee154abb29e8f5161ea5a",
+        "filepath": "src/src/docs/college/stat-495/index.md",
+        "fullpath": "/Users/Alex/projects/portfolio-docs/src/docs/college/stat-495/index.md",
+        "link": "https://github.com/alexliusq/margins-me-frontend/edit/master/src/src/src/docs/college/stat-495/index.md",
         "hidden": false,
         "slug": "src-src-docs-college-stat-495-index",
         "headings": [
