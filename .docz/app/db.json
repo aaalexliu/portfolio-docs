@@ -222,6 +222,32 @@
       }
     },
     {
+      "key": "src/src/docs/college/hist-419/index.md",
+      "value": {
+        "name": "WeChat, China, Information and Communication Technologies, and Nationalism",
+        "route": "/college/wechat-nationalism",
+        "menu": "College",
+        "id": "e51d1d27a9e281bdac2ec7c60cc9df66",
+        "filepath": "src/src/docs/college/hist-419/index.md",
+        "fullpath": "/Users/Alex/projects/portfolio-docs/src/docs/college/hist-419/index.md",
+        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/college/hist-419/index.md",
+        "hidden": false,
+        "slug": "src-src-docs-college-hist-419-index",
+        "headings": [
+          {
+            "slug": "hist-419-on-nationalism",
+            "depth": 1,
+            "value": "HIST 419: On Nationalism"
+          },
+          {
+            "slug": "wechat-china-information-and-communication-technologies-and-nationalism-what-happens-when-nationalism-goes-digital",
+            "depth": 2,
+            "value": "WeChat, China, Information and Communication Technologies, and Nationalism: What Happens When Nationalism Goes Digital?"
+          }
+        ]
+      }
+    },
+    {
       "key": "src/src/docs/college/stat-495/index.md",
       "value": {
         "name": "Yelp Dataset Challenge",
