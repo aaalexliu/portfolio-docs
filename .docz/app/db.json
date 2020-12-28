@@ -7,11 +7,50 @@
     "repository": "https://github.com/alexliusq/portfolio-docs",
     "native": false,
     "themeConfig": {},
-    "separator": "-",
-    "src": "./src",
-    "debug": true
+    "separator": "-"
   },
   "entries": [
+    {
+      "key": "src/src/docs/college/hist-414.md",
+      "value": {
+        "name": "Biotech, Genentech, and Syntex",
+        "route": "/college/biotech-genentech",
+        "menu": "College",
+        "id": "8f3064013618639bc6fc016ef7c26054",
+        "filepath": "src/src/docs/college/hist-414.md",
+        "fullpath": "/Users/Alex/projects/portfolio-docs/src/docs/college/hist-414.md",
+        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/college/hist-414.md",
+        "hidden": false,
+        "slug": "src-src-docs-college-hist-414",
+        "headings": [
+          {
+            "slug": "hist-414",
+            "depth": 1,
+            "value": "HIST 414"
+          },
+          {
+            "slug": "therapeutic-transformations-the-wonder-drugs-and-modern-medicine",
+            "depth": 2,
+            "value": "Therapeutic Transformations: The \"Wonder Drugs\" and Modern Medicine"
+          },
+          {
+            "slug": "professor-john-w-servos",
+            "depth": 3,
+            "value": "Professor John W. Servos"
+          },
+          {
+            "slug": "biotech-genentech-and-syntex",
+            "depth": 2,
+            "value": "Biotech, Genentech, and Syntex"
+          },
+          {
+            "slug": "introduction",
+            "depth": 3,
+            "value": "Introduction"
+          }
+        ]
+      }
+    },
     {
       "key": "src/src/docs/college/index.md",
       "value": {
@@ -25,77 +64,6 @@
         "hidden": false,
         "slug": "src-src-docs-college-index",
         "headings": []
-      }
-    },
-    {
-      "key": "src/src/docs/iot-monitoring/index.md",
-      "value": {
-        "name": "Time Series and IoT Monitoring",
-        "route": "/times-series",
-        "id": "57da1f52430efef94f9c5d28b943c503",
-        "filepath": "src/src/docs/iot-monitoring/index.md",
-        "fullpath": "/Users/Alex/projects/portfolio-docs/src/docs/iot-monitoring/index.md",
-        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/iot-monitoring/index.md",
-        "hidden": false,
-        "slug": "src-src-docs-iot-monitoring-index",
-        "menu": "",
-        "headings": [
-          {
-            "slug": "time-series-and-iot-monitoring",
-            "depth": 1,
-            "value": "Time Series and IoT Monitoring"
-          },
-          {
-            "slug": "summary",
-            "depth": 2,
-            "value": "Summary"
-          },
-          {
-            "slug": "streams-of-data",
-            "depth": 2,
-            "value": "Streams of Data"
-          },
-          {
-            "slug": "a-brief-aside-on-the-market-for-stbs",
-            "depth": 3,
-            "value": "A brief aside on the market for STBs"
-          },
-          {
-            "slug": "time-series-workloads",
-            "depth": 2,
-            "value": "Time Series Workloads"
-          },
-          {
-            "slug": "oltp-vs-time-series",
-            "depth": 3,
-            "value": "OLTP vs. Time Series"
-          },
-          {
-            "slug": "from-opentsdb-to-influxdb",
-            "depth": 2,
-            "value": "From OpenTSDB to InfluxDB"
-          },
-          {
-            "slug": "what-is-cardinality",
-            "depth": 3,
-            "value": "What is Cardinality?"
-          },
-          {
-            "slug": "death-by-high-cardinality",
-            "depth": 3,
-            "value": "Death by High Cardinality"
-          },
-          {
-            "slug": "influxdb-the-cure-for-our-ills",
-            "depth": 3,
-            "value": "InfluxDB, The Cure for Our Ills"
-          },
-          {
-            "slug": "a-brief-addendum-on-grafana",
-            "depth": 2,
-            "value": "A Brief Addendum on Grafana"
-          }
-        ]
       }
     },
     {
@@ -222,6 +190,118 @@
       }
     },
     {
+      "key": "src/src/docs/iot-monitoring/index.md",
+      "value": {
+        "name": "Time Series and IoT Monitoring",
+        "route": "/times-series",
+        "id": "57da1f52430efef94f9c5d28b943c503",
+        "filepath": "src/src/docs/iot-monitoring/index.md",
+        "fullpath": "/Users/Alex/projects/portfolio-docs/src/docs/iot-monitoring/index.md",
+        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/iot-monitoring/index.md",
+        "hidden": false,
+        "slug": "src-src-docs-iot-monitoring-index",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "time-series-and-iot-monitoring",
+            "depth": 1,
+            "value": "Time Series and IoT Monitoring"
+          },
+          {
+            "slug": "summary",
+            "depth": 2,
+            "value": "Summary"
+          },
+          {
+            "slug": "streams-of-data",
+            "depth": 2,
+            "value": "Streams of Data"
+          },
+          {
+            "slug": "a-brief-aside-on-the-market-for-stbs",
+            "depth": 3,
+            "value": "A brief aside on the market for STBs"
+          },
+          {
+            "slug": "time-series-workloads",
+            "depth": 2,
+            "value": "Time Series Workloads"
+          },
+          {
+            "slug": "oltp-vs-time-series",
+            "depth": 3,
+            "value": "OLTP vs. Time Series"
+          },
+          {
+            "slug": "from-opentsdb-to-influxdb",
+            "depth": 2,
+            "value": "From OpenTSDB to InfluxDB"
+          },
+          {
+            "slug": "what-is-cardinality",
+            "depth": 3,
+            "value": "What is Cardinality?"
+          },
+          {
+            "slug": "death-by-high-cardinality",
+            "depth": 3,
+            "value": "Death by High Cardinality"
+          },
+          {
+            "slug": "influxdb-the-cure-for-our-ills",
+            "depth": 3,
+            "value": "InfluxDB, The Cure for Our Ills"
+          },
+          {
+            "slug": "a-brief-addendum-on-grafana",
+            "depth": 2,
+            "value": "A Brief Addendum on Grafana"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/src/docs/college/econ-470/index.md",
+      "value": {
+        "name": "Mechanism Design",
+        "route": "/college/econ-470",
+        "menu": "College",
+        "id": "729cded644aa791b3f0cccd4b020d9da",
+        "filepath": "src/src/docs/college/econ-470/index.md",
+        "fullpath": "/Users/Alex/projects/portfolio-docs/src/docs/college/econ-470/index.md",
+        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/college/econ-470/index.md",
+        "hidden": false,
+        "slug": "src-src-docs-college-econ-470-index",
+        "headings": [
+          {
+            "slug": "econ-470-mechanism-design",
+            "depth": 1,
+            "value": "ECON 470: Mechanism Design"
+          },
+          {
+            "slug": "professor-brian-baisa",
+            "depth": 3,
+            "value": "Professor Brian Baisa"
+          },
+          {
+            "slug": "review-of-the-economic-limits-of-bitcoin-and-the-blockchain-by-eric-budish",
+            "depth": 2,
+            "value": "Review of The Economic Limits of Bitcoin and the Blockchain by Eric Budish"
+          },
+          {
+            "slug": "quadratic-voting-meets-groups",
+            "depth": 2,
+            "value": "Quadratic Voting Meets Groups"
+          },
+          {
+            "slug": "introduction",
+            "depth": 3,
+            "value": "Introduction"
+          }
+        ]
+      }
+    },
+    {
       "key": "src/src/docs/college/hist-419/index.md",
       "value": {
         "name": "WeChat, China, Information and Communication Technologies, and Nationalism",
@@ -264,6 +344,57 @@
             "slug": "yelp-dataset-challenge",
             "depth": 1,
             "value": "Yelp Dataset Challenge"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/src/docs/margins/overview/index.md",
+      "value": {
+        "name": "Overview",
+        "route": "/margins/overview",
+        "menu": "Margins",
+        "id": "e2429dae7a3feb19918d97c739db0b36",
+        "filepath": "src/src/docs/margins/overview/index.md",
+        "fullpath": "/Users/Alex/projects/portfolio-docs/src/docs/margins/overview/index.md",
+        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/margins/overview/index.md",
+        "hidden": false,
+        "slug": "src-src-docs-margins-overview-index",
+        "headings": [
+          {
+            "slug": "overview",
+            "depth": 1,
+            "value": "Overview"
+          },
+          {
+            "slug": "the-problem-and-the-product",
+            "depth": 2,
+            "value": "The Problem and the Product"
+          },
+          {
+            "slug": "the-architecture",
+            "depth": 2,
+            "value": "The Architecture"
+          },
+          {
+            "slug": "stack-summary",
+            "depth": 2,
+            "value": "Stack Summary"
+          },
+          {
+            "slug": "graphql-api-overview-github",
+            "depth": 2,
+            "value": "GraphQL API Overview  (Github)"
+          },
+          {
+            "slug": "front-end-overview-github",
+            "depth": 2,
+            "value": "Front End Overview  (Github)"
+          },
+          {
+            "slug": "serverless-microservices-overview-github",
+            "depth": 2,
+            "value": "Serverless Microservices Overview  (Github)"
           }
         ]
       }
@@ -326,57 +457,6 @@
             "slug": "scenario-analysis-slide",
             "depth": 2,
             "value": "Scenario Analysis Slide:"
-          }
-        ]
-      }
-    },
-    {
-      "key": "src/src/docs/margins/overview/index.md",
-      "value": {
-        "name": "Overview",
-        "route": "/margins/overview",
-        "menu": "Margins",
-        "id": "e2429dae7a3feb19918d97c739db0b36",
-        "filepath": "src/src/docs/margins/overview/index.md",
-        "fullpath": "/Users/Alex/projects/portfolio-docs/src/docs/margins/overview/index.md",
-        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/margins/overview/index.md",
-        "hidden": false,
-        "slug": "src-src-docs-margins-overview-index",
-        "headings": [
-          {
-            "slug": "overview",
-            "depth": 1,
-            "value": "Overview"
-          },
-          {
-            "slug": "the-problem-and-the-product",
-            "depth": 2,
-            "value": "The Problem and the Product"
-          },
-          {
-            "slug": "the-architecture",
-            "depth": 2,
-            "value": "The Architecture"
-          },
-          {
-            "slug": "stack-summary",
-            "depth": 2,
-            "value": "Stack Summary"
-          },
-          {
-            "slug": "graphql-api-overview-github",
-            "depth": 2,
-            "value": "GraphQL API Overview  (Github)"
-          },
-          {
-            "slug": "front-end-overview-github",
-            "depth": 2,
-            "value": "Front End Overview  (Github)"
-          },
-          {
-            "slug": "serverless-microservices-overview-github",
-            "depth": 2,
-            "value": "Serverless Microservices Overview  (Github)"
           }
         ]
       }
