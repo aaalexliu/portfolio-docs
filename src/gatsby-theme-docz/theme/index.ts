@@ -23,6 +23,7 @@ import { merge } from 'lodash/fp';
 // }
 const theme = merge(defaultTheme,
   {
+    showMarkdownEditButton: false,
     styles: {
       root: {
         fontSize: 2
@@ -34,7 +35,7 @@ const theme = merge(defaultTheme,
   }
 );
 
-console.log(theme.styles);
+// console.log(theme.styles);
 
 
 export default theme;
