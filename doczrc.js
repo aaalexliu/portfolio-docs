@@ -4,6 +4,6 @@ export default {
   debug: true,
   // repository: 'https://github.com/alexliusq/margins-me-frontend',
   title: "Alex's Portfolio",
-  description: "Technical explainers on my projects and programming experience",
+  description: "Alex Liu's Portfolio ",
   // link: "ssdsfas"
 }

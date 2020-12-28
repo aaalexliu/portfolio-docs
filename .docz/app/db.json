@@ -1,10 +1,10 @@
 {
   "config": {
     "title": "Alex's Portfolio",
-    "description": "Technical explainers on my projects and programming experience",
+    "description": "Alex Liu's Portfolio ",
     "menu": [],
     "version": "0.1.0",
-    "repository": "https://github.com/alexliusq/margins-me-frontend",
+    "repository": "https://github.com/alexliusq/portfolio-docs",
     "native": false,
     "themeConfig": {},
     "separator": "-",
@@ -21,7 +21,7 @@
         "id": "b24ff39eb6c52473e9c403a80e6691d9",
         "filepath": "src/src/docs/college/index.md",
         "fullpath": "/Users/Alex/projects/portfolio-docs/src/docs/college/index.md",
-        "link": "https://github.com/alexliusq/margins-me-frontend/edit/master/src/src/src/docs/college/index.md",
+        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/college/index.md",
         "hidden": false,
         "slug": "src-src-docs-college-index",
         "headings": []
@@ -35,7 +35,7 @@
         "id": "57da1f52430efef94f9c5d28b943c503",
         "filepath": "src/src/docs/iot-monitoring/index.md",
         "fullpath": "/Users/Alex/projects/portfolio-docs/src/docs/iot-monitoring/index.md",
-        "link": "https://github.com/alexliusq/margins-me-frontend/edit/master/src/src/src/docs/iot-monitoring/index.md",
+        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/iot-monitoring/index.md",
         "hidden": false,
         "slug": "src-src-docs-iot-monitoring-index",
         "menu": "",
@@ -107,7 +107,7 @@
         "id": "cec7ca19a2843e941ce251cf642d7c16",
         "filepath": "src/src/docs/margins/front-end.md",
         "fullpath": "/Users/Alex/projects/portfolio-docs/src/docs/margins/front-end.md",
-        "link": "https://github.com/alexliusq/margins-me-frontend/edit/master/src/src/src/docs/margins/front-end.md",
+        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/margins/front-end.md",
         "hidden": false,
         "slug": "src-src-docs-margins-front-end",
         "headings": [
@@ -148,7 +148,7 @@
         "id": "00900e5dfdfb92a1a6e84c6d4d930046",
         "filepath": "src/src/docs/margins/graphql-api.md",
         "fullpath": "/Users/Alex/projects/portfolio-docs/src/docs/margins/graphql-api.md",
-        "link": "https://github.com/alexliusq/margins-me-frontend/edit/master/src/src/src/docs/margins/graphql-api.md",
+        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/margins/graphql-api.md",
         "hidden": false,
         "slug": "src-src-docs-margins-graphql-api",
         "headings": [
@@ -199,7 +199,7 @@
         "id": "fb9e1595f47853003f1d660e5179f5a8",
         "filepath": "src/src/docs/margins/microservices.md",
         "fullpath": "/Users/Alex/projects/portfolio-docs/src/docs/margins/microservices.md",
-        "link": "https://github.com/alexliusq/margins-me-frontend/edit/master/src/src/src/docs/margins/microservices.md",
+        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/margins/microservices.md",
         "hidden": false,
         "slug": "src-src-docs-margins-microservices",
         "headings": [
@@ -230,7 +230,7 @@
         "id": "f8ac3249ea9ee154abb29e8f5161ea5a",
         "filepath": "src/src/docs/college/stat-495/index.md",
         "fullpath": "/Users/Alex/projects/portfolio-docs/src/docs/college/stat-495/index.md",
-        "link": "https://github.com/alexliusq/margins-me-frontend/edit/master/src/src/src/docs/college/stat-495/index.md",
+        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/college/stat-495/index.md",
         "hidden": false,
         "slug": "src-src-docs-college-stat-495-index",
         "headings": [
@@ -251,7 +251,7 @@
         "id": "083ff8839822e61b5cbb95559c94fc10",
         "filepath": "src/src/docs/finance/cornell-stock-pitch/index.md",
         "fullpath": "/Users/Alex/projects/portfolio-docs/src/docs/finance/cornell-stock-pitch/index.md",
-        "link": "https://github.com/alexliusq/margins-me-frontend/edit/master/src/src/src/docs/finance/cornell-stock-pitch/index.md",
+        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/finance/cornell-stock-pitch/index.md",
         "hidden": false,
         "slug": "src-src-docs-finance-cornell-stock-pitch-index",
         "headings": [
@@ -282,7 +282,7 @@
         "id": "e2429dae7a3feb19918d97c739db0b36",
         "filepath": "src/src/docs/margins/overview/index.md",
         "fullpath": "/Users/Alex/projects/portfolio-docs/src/docs/margins/overview/index.md",
-        "link": "https://github.com/alexliusq/margins-me-frontend/edit/master/src/src/src/docs/margins/overview/index.md",
+        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/margins/overview/index.md",
         "hidden": false,
         "slug": "src-src-docs-margins-overview-index",
         "headings": [
