@@ -243,6 +243,37 @@
       }
     },
     {
+      "key": "src/src/docs/finance/bic/index.md",
+      "value": {
+        "name": "Boston Investment Conference: CNK",
+        "route": "/finance/bic-cnk",
+        "menu": "Finance",
+        "id": "e88edb15c5f7184460683a03877eb0ce",
+        "filepath": "src/src/docs/finance/bic/index.md",
+        "fullpath": "/Users/Alex/projects/portfolio-docs/src/docs/finance/bic/index.md",
+        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/finance/bic/index.md",
+        "hidden": false,
+        "slug": "src-src-docs-finance-bic-index",
+        "headings": [
+          {
+            "slug": "boston-investment-conference-pitch-cnk",
+            "depth": 1,
+            "value": "Boston Investment Conference Pitch: CNK"
+          },
+          {
+            "slug": "slides",
+            "depth": 2,
+            "value": "Slides"
+          },
+          {
+            "slug": "2-page-pitch",
+            "depth": 2,
+            "value": "2 Page Pitch"
+          }
+        ]
+      }
+    },
+    {
       "key": "src/src/docs/finance/cornell-stock-pitch/index.md",
       "value": {
         "name": "Cornell Stock Pitch Competition: GOOS",
