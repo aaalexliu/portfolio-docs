@@ -9,8 +9,8 @@ A 3-person team pitch during my Junior (3rd) year, where we pitched a neutral po
 
 [(Link)](../pdfs/Amherst_College_GOOS_hopefully_final.pdf) to full pdf of our presentation.
 
-### Thesis Slide:
+## Thesis Slide:
 ![Summary Slide](./thesis.png)
 
-### Scenario Analysis Slide:
+## Scenario Analysis Slide:
 ![Scenario Slide](./scenarios.png)

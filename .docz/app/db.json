@@ -224,8 +224,8 @@
     {
       "key": "src/src/docs/college/stat-495/index.md",
       "value": {
-        "name": "Statistics 495 Advanced Data Analysis",
-        "route": "/college/stat-495",
+        "name": "Yelp Dataset Challenge",
+        "route": "/college/yelp-dataset",
         "menu": "College",
         "id": "f8ac3249ea9ee154abb29e8f5161ea5a",
         "filepath": "src/src/docs/college/stat-495/index.md",
@@ -262,12 +262,12 @@
           },
           {
             "slug": "thesis-slide",
-            "depth": 3,
+            "depth": 2,
             "value": "Thesis Slide:"
           },
           {
             "slug": "scenario-analysis-slide",
-            "depth": 3,
+            "depth": 2,
             "value": "Scenario Analysis Slide:"
           }
         ]

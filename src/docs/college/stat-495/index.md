@@ -1,12 +1,12 @@
 ---
-name: 'Statistics 495 Advanced Data Analysis'
-route: /college/stat-495
+name: 'Yelp Dataset Challenge'
+route: /college/yelp-dataset
 menu: College
 ---
 
 # Yelp Dataset Challenge
 
-For the final project of the Statistics Capstone course at Amherst, I and a
+For the final project of the Statistics Capstone (STAT 495: Advanced Data Analysis) course at Amherst, I and a
 group of two other students decided to take on the 12th Yelp Dataset Challenge.
 Our main goal was to predict the `stars_review` response variable, which has 5
 levels, 1-5, making it a multi-class classification problem. I focused on
