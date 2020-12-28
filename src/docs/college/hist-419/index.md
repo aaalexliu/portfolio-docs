@@ -1,18 +1,20 @@
 ---
-name: 'WeChat, China, Information and Communication Technologies, and Nationalism'
-route: /college/wechat-nationalism
+name: 'On Nationalism'
+route: /college/nationalism
 menu: College
 ---
 
 # HIST 419: On Nationalism
+### Professor Adi Gordon
 
 On Nationalism was one of those classes that I knew I was going to take after I read the course introduction:
 
-> Nationalism – by far the most powerful political idea of the past 250 years – has transformed human history the world over. By positing a new form of human identity, it has liberated and enslaved, built and destroyed. Most importantly it persisted by presenting itself as a natural fact of human life. Studying nationalism, therefore, is an act of self-exploration, whether or not we regard ourselves as bound to the nation. Yet, though nationalism has shaped the modern age, people strongly disagree on its most basic concepts: What are nations? When did they emerge? What is their future? This research seminar will begin with a systematic and comparative study of the key theories of nationalism, seeking to understand both their claims and historical contexts. From this theoretical foundation, the seminar will explore case studies from different epochs and continents. Further: more than focusing on nationalism’s impact on politics, our case studies will illustrate nationalism’s impact on gender norms and class, on religion and philosophy, on culture and the arts. Finally the course will culminate in individual student research projects, consisting of a 20 page paper and a final presentation as part of a mini-conference event.
+Nationalism – by far the most powerful political idea of the past 250 years – has transformed human history the world over. By positing a new form of human identity, it has liberated and enslaved, built and destroyed. Most importantly it persisted by presenting itself as a natural fact of human life. Studying nationalism, therefore, is an act of self-exploration, whether or not we regard ourselves as bound to the nation. Yet, though nationalism has shaped the modern age, people strongly disagree on its most basic concepts: What are nations? When did they emerge? What is their future? This research seminar will begin with a systematic and comparative study of the key theories of nationalism, seeking to understand both their claims and historical contexts. From this theoretical foundation, the seminar will explore case studies from different epochs and continents. Further: more than focusing on nationalism’s impact on politics, our case studies will illustrate nationalism’s impact on gender norms and class, on religion and philosophy, on culture and the arts. Finally the course will culminate in individual student research projects, consisting of a 20 page paper and a final presentation as part of a mini-conference event.
 
 ## WeChat, China, Information and Communication Technologies, and Nationalism: What Happens When Nationalism Goes Digital?
 
 [Link](../pdfs/ict-china-nationalism-paper.pdf) to full pdf.
+
 [Link](../pdfs/ict-china-nationalism-slides.pdf) to summary slides.
 
 ![Technology and Nationalism slide](./nationalism-slide.png)

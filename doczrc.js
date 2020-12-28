@@ -5,6 +5,5 @@ export default {
   // repository: 'https://github.com/alexliusq/margins-me-frontend',
   title: "Alex's Portfolio",
   description: "Alex Liu's Portfolio ",
-  github
   // link: "ssdsfas"
 }

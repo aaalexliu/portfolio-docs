@@ -11,13 +11,13 @@ Course Content: Economics 470 is an advanced undergraduate course in mechanism d
 A large portion of the course will use mechanism design to study how buyers and sellers interact. We will study models that argue that certain commonly studied market forms (auctions, monopoly pricing, perfect competition) are emergent because these simple mechanisms are the endogenous solution to a complex mechanism design problem. We will also use mechanism design to understand why some market structures function imperfectly and how/when/if it is possible to improve on market outcomes. We then will use the tools developed to study markets in order to study non-market settings like voting, matching theory, and the distribution of public goods.
 
 ## Review of The Economic Limits of Bitcoin and the Blockchain by Eric Budish
-[Link](../mechanism-design-bitcoin.pdf) to full pdf.
+[Link](../pdfs/mechanism-design-bitcoin.pdf) to full pdf.
 
 ![bitcoin preview](./bitcoin-preview.png)
 
 ## Quadratic Voting Meets Groups
-[Link](../mechanism-design-qv-paper.pdf) to full pdf.
-[Link](../mechanism-design-qv-slides.pdf) to slides pdf.
+[Link](../pdfs/mechanism-design-qv-paper.pdf) to full pdf.
+[Link](../pdfs/mechanism-design-qv-slides.pdf) to slides pdf.
 
 ![slides preview](./slides-preview.png)
 

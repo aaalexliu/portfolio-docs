@@ -1,6 +1,6 @@
 ---
-name: 'Biotech, Genentech, and Syntex'
-route: /college/biotech-genentech
+name: 'The "Wonder Drugs" and Modern Medicine'
+route: /college/therapeutic-transformations
 menu: College
 ---
 
@@ -8,8 +8,9 @@ menu: College
 ## Therapeutic Transformations: The "Wonder Drugs" and Modern Medicine
 ### Professor John W. Servos
 
-> This course is about the history of therapeutics during the decades from about 1880 to 1960. We take it for granted that physicians can supply us with remedies for most infectious diseases and assume that such remedies have contributed greatly to making our lives longer and healthier. These assumptions were born during the period we will be surveying. So, too, were the big pharmaceutical companies,biomedical research institutions, and regulatory agencies that are such visible parts of our medicine. The advances in therapeutics made during this era changed medicine. They also created new risks and new political dilemmas. The debates over health care of recent years grow directly out of the therapeutic revolution that began shortly before the beginning of the twentieth century. It is history that has shaped important parts of our world.
-> I have focused most of our common readings on the history of drug therapies-from the introduction of diphtheria anti-toxin in the 1890s to the proliferation of antibiotics in the 1950s and 60s. As in most history courses, we will be seeking to learn what happened, assessingcontinuities and discontinuities in the story, and trying to figure out why change occurred. Some of the reading will take you into the details of drug development, and that may test your patience. But it is impossible to come to any real understanding of the 'whys' of events without knowing something of the 'hows,' and this can mean digging a bit into the technical details of laboratory research, industrial practice, and the law. Be assured, however, that the 'technical content' of the readings is modest and should be comprehensible to anyone with a decent high school science education.
+This course is about the history of therapeutics during the decades from about 1880 to 1960. We take it for granted that physicians can supply us with remedies for most infectious diseases and assume that such remedies have contributed greatly to making our lives longer and healthier. These assumptions were born during the period we will be surveying. So, too, were the big pharmaceutical companies,biomedical research institutions, and regulatory agencies that are such visible parts of our medicine. The advances in therapeutics made during this era changed medicine. They also created new risks and new political dilemmas. The debates over health care of recent years grow directly out of the therapeutic revolution that began shortly before the beginning of the twentieth century. It is history that has shaped important parts of our world.
+
+I have focused most of our common readings on the history of drug therapies-from the introduction of diphtheria anti-toxin in the 1890s to the proliferation of antibiotics in the 1950s and 60s. As in most history courses, we will be seeking to learn what happened, assessingcontinuities and discontinuities in the story, and trying to figure out why change occurred. Some of the reading will take you into the details of drug development, and that may test your patience. But it is impossible to come to any real understanding of the 'whys' of events without knowing something of the 'hows,' and this can mean digging a bit into the technical details of laboratory research, industrial practice, and the law. Be assured, however, that the 'technical content' of the readings is modest and should be comprehensible to anyone with a decent high school science education.
 
 ## Biotech, Genentech, and Syntex
 [Link](../pdfs/biotech-genentech-syntex.pdf) to full pdf.
