@@ -20,9 +20,9 @@ I want to demonstrate that I can think through architectural decisions. The best
 
 Each Architecture post documents the key architecture tradeoffs I made for my GraphQL API, Front End, and Serverless Microservices. I'll discuss the benefits and drawbacks of each choice, and why the technology I chose better fit my use case. Tradeoffs discussed include  Apollo vs. Relay, REST vs GraphQL, relational vs. non-relational, Serverless, deployment tools, and more.
 
-- [Architecture: Front End](./front-end)
-- [Architecture: GraphQL API](./graphql-api)
-- [Architecture: Serverless Microservices](./serverless-microservices)
+- [Architecture: Front End](/margins/front-end)
+- [Architecture: GraphQL API](/margins/graphql-api)
+- [Architecture: Serverless Microservices](/margins/serverless-microservices)
 
 ## Stack Summary
 
@@ -73,7 +73,7 @@ All Lambdas deployed using AWS SAM, [link](https://github.com/alexliusq/margins-
 - AWS SES + S3 + Lambda
     - SES to receive emails at kindle@margins.me. Lambda to check if email is registered, if so, SES writes email to S3, S3 triggers a Lambda to parse the Kindle html attachment, convert notes into JSON, and POST them to GraphQL API.
     - Wrote package to extract the Kindle attachment using [MailParser](https://mailparser.io/) and parsed the html using [Cheerio](https://cheerio.js.org/), a server-side jQuery library.
-    - AWS SAM to locally test and deploy Lambda functions, (why I chose SAM over the Serverless Framework).
+    - AWS SAM to locally test and continuously deploy Lambda functions.
 - AWS Cognito: Identity-as-a-Service, far cheaper alternative to Auth0. Every security expert says don't roll your own crypto, I think the same applies to my use case for Identity. I don't want to deal with different [Authentication Challenge flows](https://docs.aws.amazon.com/cognito/latest/developerguide/amazon-cognito-user-pools-authentication-flow.html)
     - AWS Lambda: Post-Confirmation trigger to add user info + onboarding to database
 - AWS Route53: DNS

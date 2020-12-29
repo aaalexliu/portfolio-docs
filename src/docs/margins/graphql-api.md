@@ -5,6 +5,9 @@ menu: Margins
 ---
 
 # Architecture: GraphQL API
+
+### [(Github Link)](https://github.com/alexliusq/margins-services/tree/master/graphql-api)
+
 ## Why Relational?
 
 Benefits:

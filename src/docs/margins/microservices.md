@@ -6,6 +6,8 @@ menu: Margins
 
 # Architecture: Serverless Microservices
 
+### [(Github Link)](https://github.com/alexliusq/margins-services/tree/master/lambdas)
+
 I wanted to create a way to receive an email, store it, parse the contents, and send any notes to my GraphQL API. Serverless Microservice. used Amazon Simple Email Service, a Lambda to reject unregistered emails, S3 to store the email and trigger a Lambda, which parses the email attachment and POSTs the notes to my GraphQL endpoint.
 
 ## Why A Serverless Microservice?
