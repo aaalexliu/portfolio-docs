@@ -1,6 +1,6 @@
 ---
 name: 'Yelp Dataset Challenge'
-route: /college/yelp-dataset
+route: /college/yelp-challenge
 menu: College
 ---
 

@@ -1,11 +1,11 @@
 ---
-name: Time Series and IoT Monitoring
-route: /times-series
+name: Time Series and IoT Analytics
+route: /iot-analytics
 ---
-# Time Series and IoT Monitoring
+# Time Series and IoT Analytics
 ## Summary
 
-I helped a startup make an architecture-level shift from a traditional MySQL database to a InfluxDB and Grafana stack. This startup captured viewing data from tens of thousands of Set Top Boxes in EMEA, and their storage costs and processing times were ballooning dramatically. I conducted research and identified that their business needs were best served by a purpose-built time series database and their rich ecosystem of visualization and processing technologies. Alibaba Cloud's TSDB, based on OpenTSDB, was inadequate for the high-cardinality viewing data the startup was collecting, even after data modeling optimizations. After further research we  found that InfluxDB could overcome this technical roadblock, and after switching, storage size dropped to < 1% of the original MySQL database, queries ran in almost real-time, and Grafana for visualization saved them untold hours of PowerPoint formatting.
+I helped a startup make an architecture-level shift from a traditional MySQL database to a InfluxDB and Grafana stack. This startup captured viewing data from tens of thousands of Set Top Boxes located in EMEA, and their storage costs and processing times were ballooning dramatically. I conducted research and identified that their business needs were best served by a purpose-built time series database and their rich ecosystem of visualization and processing technologies. Alibaba Cloud's TSDB, based on OpenTSDB, was inadequate for the high-cardinality viewing data the startup was collecting, even after data modeling optimizations. After further research we  found that InfluxDB could overcome this technical roadblock, and after switching, storage size dropped to < 1% of the original MySQL database, queries ran in almost real-time, and Grafana for visualization saved them untold hours of PowerPoint formatting.
 
 ## Streams of Data
 

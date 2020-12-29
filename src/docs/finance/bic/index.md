@@ -1,6 +1,6 @@
 ---
 name: 'Boston Investment Conference: CNK'
-route: /finance/bic-cnk
+route: /finance/bic
 menu: Finance
 ---
 

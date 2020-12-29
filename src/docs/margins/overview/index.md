@@ -57,7 +57,7 @@ API infrastructure deployed and managed with Terraform, [link](https://github.co
     - Apollo because although their documentation could be improved, Relay's documentation is worse. Good enough to be used by AWS as part of their client side framework Amplify. Client-side caching, though a pain to implement, improves performance significantly.
     - Gatsby because it's a static site generator that makes sites blazingly fast thanks to out-of-the-box optimizations like prefetching and code-splitting.
 
-### React SPA (/app) Lighthouse Score:
+### React SPA /app Lighthouse Score:
 ![App Lighthouse Score](./app-lighthouse.png)
 
 #### Landing Page Lighthouse Score:
