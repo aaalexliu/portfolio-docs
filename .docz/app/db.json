@@ -13,14 +13,55 @@
   },
   "entries": [
     {
+      "key": "src/src/docs/welcome.md",
+      "value": {
+        "name": "Welcome",
+        "route": "/",
+        "id": "30cb9fda1b73aa21b4ab015c483c8a7e",
+        "filepath": "src/src/docs/welcome.md",
+        "fullpath": "/Users/Alex/projects/portfolio/src/docs/welcome.md",
+        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/welcome.md",
+        "hidden": false,
+        "slug": "src-src-docs-welcome",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "welcome",
+            "depth": 1,
+            "value": "Welcome"
+          },
+          {
+            "slug": "college",
+            "depth": 2,
+            "value": "College"
+          },
+          {
+            "slug": "finance",
+            "depth": 2,
+            "value": "Finance"
+          },
+          {
+            "slug": "margins",
+            "depth": 2,
+            "value": "Margins"
+          },
+          {
+            "slug": "time-series-and-iot-analytics",
+            "depth": 2,
+            "value": "Time Series and IoT Analytics"
+          }
+        ]
+      }
+    },
+    {
       "key": "src/src/docs/college/hist-414.md",
       "value": {
-        "name": "Biotech, Genentech, and Syntex",
-        "route": "/college/biotech-genentech",
+        "name": "The \"Wonder Drugs\" and Modern Medicine",
+        "route": "/college/therapeutic-transformations",
         "menu": "College",
         "id": "8f3064013618639bc6fc016ef7c26054",
         "filepath": "src/src/docs/college/hist-414.md",
-        "fullpath": "/Users/Alex/projects/portfolio-docs/src/docs/college/hist-414.md",
+        "fullpath": "/Users/Alex/projects/portfolio/src/docs/college/hist-414.md",
         "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/college/hist-414.md",
         "hidden": false,
         "slug": "src-src-docs-college-hist-414",
@@ -54,37 +95,22 @@
       }
     },
     {
-      "key": "src/src/docs/college/index.md",
-      "value": {
-        "name": "Overview",
-        "route": "/college/overview",
-        "menu": "College",
-        "id": "b24ff39eb6c52473e9c403a80e6691d9",
-        "filepath": "src/src/docs/college/index.md",
-        "fullpath": "/Users/Alex/projects/portfolio-docs/src/docs/college/index.md",
-        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/college/index.md",
-        "hidden": false,
-        "slug": "src-src-docs-college-index",
-        "headings": []
-      }
-    },
-    {
       "key": "src/src/docs/iot-monitoring/index.md",
       "value": {
-        "name": "Time Series and IoT Monitoring",
-        "route": "/times-series",
+        "name": "Time Series and IoT Analytics",
+        "route": "/iot-analytics",
         "id": "57da1f52430efef94f9c5d28b943c503",
         "filepath": "src/src/docs/iot-monitoring/index.md",
-        "fullpath": "/Users/Alex/projects/portfolio-docs/src/docs/iot-monitoring/index.md",
+        "fullpath": "/Users/Alex/projects/portfolio/src/docs/iot-monitoring/index.md",
         "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/iot-monitoring/index.md",
         "hidden": false,
         "slug": "src-src-docs-iot-monitoring-index",
         "menu": "",
         "headings": [
           {
-            "slug": "time-series-and-iot-monitoring",
+            "slug": "time-series-and-iot-analytics",
             "depth": 1,
-            "value": "Time Series and IoT Monitoring"
+            "value": "Time Series and IoT Analytics"
           },
           {
             "slug": "summary",
@@ -147,7 +173,7 @@
         "menu": "Margins",
         "id": "cec7ca19a2843e941ce251cf642d7c16",
         "filepath": "src/src/docs/margins/front-end.md",
-        "fullpath": "/Users/Alex/projects/portfolio-docs/src/docs/margins/front-end.md",
+        "fullpath": "/Users/Alex/projects/portfolio/src/docs/margins/front-end.md",
         "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/margins/front-end.md",
         "hidden": false,
         "slug": "src-src-docs-margins-front-end",
@@ -188,7 +214,7 @@
         "menu": "Margins",
         "id": "00900e5dfdfb92a1a6e84c6d4d930046",
         "filepath": "src/src/docs/margins/graphql-api.md",
-        "fullpath": "/Users/Alex/projects/portfolio-docs/src/docs/margins/graphql-api.md",
+        "fullpath": "/Users/Alex/projects/portfolio/src/docs/margins/graphql-api.md",
         "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/margins/graphql-api.md",
         "hidden": false,
         "slug": "src-src-docs-margins-graphql-api",
@@ -239,7 +265,7 @@
         "menu": "Margins",
         "id": "fb9e1595f47853003f1d660e5179f5a8",
         "filepath": "src/src/docs/margins/microservices.md",
-        "fullpath": "/Users/Alex/projects/portfolio-docs/src/docs/margins/microservices.md",
+        "fullpath": "/Users/Alex/projects/portfolio/src/docs/margins/microservices.md",
         "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/margins/microservices.md",
         "hidden": false,
         "slug": "src-src-docs-margins-microservices",
@@ -270,7 +296,7 @@
         "menu": "College",
         "id": "729cded644aa791b3f0cccd4b020d9da",
         "filepath": "src/src/docs/college/econ-470/index.md",
-        "fullpath": "/Users/Alex/projects/portfolio-docs/src/docs/college/econ-470/index.md",
+        "fullpath": "/Users/Alex/projects/portfolio/src/docs/college/econ-470/index.md",
         "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/college/econ-470/index.md",
         "hidden": false,
         "slug": "src-src-docs-college-econ-470-index",
@@ -306,12 +332,12 @@
     {
       "key": "src/src/docs/college/hist-419/index.md",
       "value": {
-        "name": "WeChat, China, Information and Communication Technologies, and Nationalism",
-        "route": "/college/wechat-nationalism",
+        "name": "On Nationalism",
+        "route": "/college/nationalism",
         "menu": "College",
         "id": "e51d1d27a9e281bdac2ec7c60cc9df66",
         "filepath": "src/src/docs/college/hist-419/index.md",
-        "fullpath": "/Users/Alex/projects/portfolio-docs/src/docs/college/hist-419/index.md",
+        "fullpath": "/Users/Alex/projects/portfolio/src/docs/college/hist-419/index.md",
         "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/college/hist-419/index.md",
         "hidden": false,
         "slug": "src-src-docs-college-hist-419-index",
@@ -320,6 +346,11 @@
             "slug": "hist-419-on-nationalism",
             "depth": 1,
             "value": "HIST 419: On Nationalism"
+          },
+          {
+            "slug": "professor-adi-gordon",
+            "depth": 3,
+            "value": "Professor Adi Gordon"
           },
           {
             "slug": "wechat-china-information-and-communication-technologies-and-nationalism-what-happens-when-nationalism-goes-digital",
@@ -333,11 +364,11 @@
       "key": "src/src/docs/college/stat-495/index.md",
       "value": {
         "name": "Yelp Dataset Challenge",
-        "route": "/college/yelp-dataset",
+        "route": "/college/yelp-challenge",
         "menu": "College",
         "id": "f8ac3249ea9ee154abb29e8f5161ea5a",
         "filepath": "src/src/docs/college/stat-495/index.md",
-        "fullpath": "/Users/Alex/projects/portfolio-docs/src/docs/college/stat-495/index.md",
+        "fullpath": "/Users/Alex/projects/portfolio/src/docs/college/stat-495/index.md",
         "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/college/stat-495/index.md",
         "hidden": false,
         "slug": "src-src-docs-college-stat-495-index",
@@ -354,11 +385,11 @@
       "key": "src/src/docs/finance/bic/index.md",
       "value": {
         "name": "Boston Investment Conference: CNK",
-        "route": "/finance/bic-cnk",
+        "route": "/finance/bic",
         "menu": "Finance",
         "id": "e88edb15c5f7184460683a03877eb0ce",
         "filepath": "src/src/docs/finance/bic/index.md",
-        "fullpath": "/Users/Alex/projects/portfolio-docs/src/docs/finance/bic/index.md",
+        "fullpath": "/Users/Alex/projects/portfolio/src/docs/finance/bic/index.md",
         "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/finance/bic/index.md",
         "hidden": false,
         "slug": "src-src-docs-finance-bic-index",
@@ -389,7 +420,7 @@
         "menu": "Finance",
         "id": "083ff8839822e61b5cbb95559c94fc10",
         "filepath": "src/src/docs/finance/cornell-stock-pitch/index.md",
-        "fullpath": "/Users/Alex/projects/portfolio-docs/src/docs/finance/cornell-stock-pitch/index.md",
+        "fullpath": "/Users/Alex/projects/portfolio/src/docs/finance/cornell-stock-pitch/index.md",
         "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/finance/cornell-stock-pitch/index.md",
         "hidden": false,
         "slug": "src-src-docs-finance-cornell-stock-pitch-index",
@@ -420,7 +451,7 @@
         "menu": "Margins",
         "id": "e2429dae7a3feb19918d97c739db0b36",
         "filepath": "src/src/docs/margins/overview/index.md",
-        "fullpath": "/Users/Alex/projects/portfolio-docs/src/docs/margins/overview/index.md",
+        "fullpath": "/Users/Alex/projects/portfolio/src/docs/margins/overview/index.md",
         "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/margins/overview/index.md",
         "hidden": false,
         "slug": "src-src-docs-margins-overview-index",
@@ -454,6 +485,16 @@
             "slug": "front-end-overview-github",
             "depth": 2,
             "value": "Front End Overview  (Github)"
+          },
+          {
+            "slug": "react-spa-app-lighthouse-score",
+            "depth": 3,
+            "value": "React SPA /app Lighthouse Score:"
+          },
+          {
+            "slug": "landing-page-lighthouse-score",
+            "depth": 4,
+            "value": "Landing Page Lighthouse Score:"
           },
           {
             "slug": "serverless-microservices-overview-github",
