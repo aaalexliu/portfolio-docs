@@ -13,11 +13,11 @@ This competition was open to college and graduate students, and I pulled togethe
 ![Student Competition](./student-competition.png)
 
 ## Slides
-Full pdf of slide deck: [link](../pdfs/Cinemark-Stock-Pitch-BIC.pdf)
+Full pdf of slide deck: [link](/pdfs/Cinemark-Stock-Pitch-BIC.pdf)
 
 ![Investment Thesis](./thesis-slide.png)
 
 ## 2 Page Pitch
-Full pdf of 2 Page Pitch: [link](../pdfs/Cinemark-Pitch-Slides-BIC.pdf)
+Full pdf of 2 Page Pitch: [link](/pdfs/Cinemark-Pitch-Slides-BIC.pdf)
 
 ![First Page](./first-page.png)

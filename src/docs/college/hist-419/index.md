@@ -13,9 +13,9 @@ Nationalism â€“ by far the most powerful political idea of the past 250 years â€
 
 ## WeChat, China, Information and Communication Technologies, and Nationalism: What Happens When Nationalism Goes Digital?
 
-[Link](../pdfs/ict-china-nationalism-paper.pdf) to full pdf.
+[Link](/pdfs/ict-china-nationalism-paper.pdf) to full pdf.
 
-[Link](../pdfs/ict-china-nationalism-slides.pdf) to summary slides.
+[Link](/pdfs/ict-china-nationalism-slides.pdf) to summary slides.
 
 ![Technology and Nationalism slide](./nationalism-slide.png)
 

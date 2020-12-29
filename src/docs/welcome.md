@@ -11,21 +11,23 @@ Hi! This is my online portfolio, which is currently formatted like programming d
 Papers and presentations from my college years, which I treated as my last extended chance to live the life of the mind. If I had the chance to do college again, I would've not taken extra courses and focused my energy, but I think I made the most of my expensive liberal arts education.
 
 I chose to include:
-
-__History__, to show I can research and craft and communicate an analytical, evidence-based, narrative. Also I just love stories that examine how the world we live in came to be. 
+### History
+To show I can research and craft and communicate an analytical, evidence-based, narrative. Also I just love stories that examine how the world we live in came to be. 
 
 - On Nationalism
   - WeChat, China, Information and Communication Technologies, and Nationalism: What Happens When Nationalism Goes Digital?
 - Therapeutic Transformations: The "Wonder Drugs" and Modern Medicine
   - Biotech, Genentech, and Syntex
 
-__Economics__, to show that I can think through abstract models of human behavior, critically examine their connection to messy human realities, and manipulate fancy symbols in latex.
+### Economics
+To show that I can think through abstract models of human behavior, critically examine their connection to messy human realities, and manipulate fancy symbols in latex.
 
 - Mechanism Design
   - Review of The Economic Limits of Bitcoin and the Blockchain by Eric Budish
   - Quadratic Voting Meets Groups
 
-__Statistics__, to show that I can apply quantitative reasoning to real world data with computers. Also that I've rolled up my sleeves, waded into mucks of data wielding `R` and some `tidyverse` packages, and emerged with usable factors. 
+### Statistics
+To show that I can apply quantitative reasoning to real world data with computers. Also that I've rolled up my sleeves, waded into mucks of data wielding `R` and some `tidyverse` packages, and emerged with usable factors. 
 
 - Statistics Capstone, Advanced Data Analysis
   - Yelp Dataset Challenge

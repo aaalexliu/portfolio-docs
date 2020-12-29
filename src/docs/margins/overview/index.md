@@ -18,7 +18,11 @@ I made it work. Now I want to explain how I made it right. As Foote and Yoder no
 
 I want to demonstrate that I can think through architectural decisions. The best way for me to do so is to show the inner workings of my app and explain how it isn't a Big Ball of Mud.
 
-Each Architecture post in the sidebar documents the key architecture tradeoffs I made for my GraphQL API, Front End, and Serverless Microservices. I'll discuss the benefits and drawbacks of each choice, and why the technology I chose better fit my use case. Tradeoffs discussed include  Apollo vs. Relay, REST vs GraphQL, relational vs. non-relational, Serverless, deployment tools, and more.
+Each Architecture post documents the key architecture tradeoffs I made for my GraphQL API, Front End, and Serverless Microservices. I'll discuss the benefits and drawbacks of each choice, and why the technology I chose better fit my use case. Tradeoffs discussed include  Apollo vs. Relay, REST vs GraphQL, relational vs. non-relational, Serverless, deployment tools, and more.
+
+- [Architecture: Front End](./front-end)
+- [Architecture: GraphQL API](./graphql-api)
+- [Architecture: Serverless Microservices](./serverless-microservices)
 
 ## Stack Summary
 

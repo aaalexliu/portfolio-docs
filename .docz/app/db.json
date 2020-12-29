@@ -36,6 +36,21 @@
             "value": "College"
           },
           {
+            "slug": "history",
+            "depth": 3,
+            "value": "History"
+          },
+          {
+            "slug": "economics",
+            "depth": 3,
+            "value": "Economics"
+          },
+          {
+            "slug": "statistics",
+            "depth": 3,
+            "value": "Statistics"
+          },
+          {
             "slug": "finance",
             "depth": 2,
             "value": "Finance"
