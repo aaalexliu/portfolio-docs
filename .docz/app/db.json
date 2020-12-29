@@ -110,77 +110,6 @@
       }
     },
     {
-      "key": "src/src/docs/iot-monitoring/index.md",
-      "value": {
-        "name": "Time Series and IoT Analytics",
-        "route": "/iot-analytics",
-        "id": "57da1f52430efef94f9c5d28b943c503",
-        "filepath": "src/src/docs/iot-monitoring/index.md",
-        "fullpath": "/Users/Alex/projects/portfolio/src/docs/iot-monitoring/index.md",
-        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/iot-monitoring/index.md",
-        "hidden": false,
-        "slug": "src-src-docs-iot-monitoring-index",
-        "menu": "",
-        "headings": [
-          {
-            "slug": "time-series-and-iot-analytics",
-            "depth": 1,
-            "value": "Time Series and IoT Analytics"
-          },
-          {
-            "slug": "summary",
-            "depth": 2,
-            "value": "Summary"
-          },
-          {
-            "slug": "streams-of-data",
-            "depth": 2,
-            "value": "Streams of Data"
-          },
-          {
-            "slug": "a-brief-aside-on-the-market-for-stbs",
-            "depth": 3,
-            "value": "A brief aside on the market for STBs"
-          },
-          {
-            "slug": "time-series-workloads",
-            "depth": 2,
-            "value": "Time Series Workloads"
-          },
-          {
-            "slug": "oltp-vs-time-series",
-            "depth": 3,
-            "value": "OLTP vs. Time Series"
-          },
-          {
-            "slug": "from-opentsdb-to-influxdb",
-            "depth": 2,
-            "value": "From OpenTSDB to InfluxDB"
-          },
-          {
-            "slug": "what-is-cardinality",
-            "depth": 3,
-            "value": "What is Cardinality?"
-          },
-          {
-            "slug": "death-by-high-cardinality",
-            "depth": 3,
-            "value": "Death by High Cardinality"
-          },
-          {
-            "slug": "influxdb-the-cure-for-our-ills",
-            "depth": 3,
-            "value": "InfluxDB, The Cure for Our Ills"
-          },
-          {
-            "slug": "a-brief-addendum-on-grafana",
-            "depth": 2,
-            "value": "A Brief Addendum on Grafana"
-          }
-        ]
-      }
-    },
-    {
       "key": "src/src/docs/margins/front-end.md",
       "value": {
         "name": "Architecture: Front End",
@@ -360,22 +289,72 @@
       }
     },
     {
-      "key": "src/src/docs/college/stat-495/index.md",
+      "key": "src/src/docs/iot-monitoring/index.md",
       "value": {
-        "name": "Yelp Dataset Challenge",
-        "route": "/college/yelp-challenge",
-        "menu": "College",
-        "id": "f8ac3249ea9ee154abb29e8f5161ea5a",
-        "filepath": "src/src/docs/college/stat-495/index.md",
-        "fullpath": "/Users/Alex/projects/portfolio/src/docs/college/stat-495/index.md",
-        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/college/stat-495/index.md",
+        "name": "Time Series and IoT Analytics",
+        "route": "/iot-analytics",
+        "id": "57da1f52430efef94f9c5d28b943c503",
+        "filepath": "src/src/docs/iot-monitoring/index.md",
+        "fullpath": "/Users/Alex/projects/portfolio/src/docs/iot-monitoring/index.md",
+        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/iot-monitoring/index.md",
         "hidden": false,
-        "slug": "src-src-docs-college-stat-495-index",
+        "slug": "src-src-docs-iot-monitoring-index",
+        "menu": "",
         "headings": [
           {
-            "slug": "yelp-dataset-challenge",
+            "slug": "time-series-and-iot-analytics",
             "depth": 1,
-            "value": "Yelp Dataset Challenge"
+            "value": "Time Series and IoT Analytics"
+          },
+          {
+            "slug": "summary",
+            "depth": 2,
+            "value": "Summary"
+          },
+          {
+            "slug": "streams-of-data",
+            "depth": 2,
+            "value": "Streams of Data"
+          },
+          {
+            "slug": "a-brief-aside-on-the-market-for-stbs",
+            "depth": 3,
+            "value": "A brief aside on the market for STBs"
+          },
+          {
+            "slug": "time-series-workloads",
+            "depth": 2,
+            "value": "Time Series Workloads"
+          },
+          {
+            "slug": "oltp-vs-time-series",
+            "depth": 3,
+            "value": "OLTP vs. Time Series"
+          },
+          {
+            "slug": "from-opentsdb-to-influxdb",
+            "depth": 2,
+            "value": "From OpenTSDB to InfluxDB"
+          },
+          {
+            "slug": "what-is-cardinality",
+            "depth": 3,
+            "value": "What is Cardinality?"
+          },
+          {
+            "slug": "death-by-high-cardinality",
+            "depth": 3,
+            "value": "Death by High Cardinality"
+          },
+          {
+            "slug": "influxdb-the-cure-for-our-ills",
+            "depth": 3,
+            "value": "InfluxDB, The Cure for Our Ills"
+          },
+          {
+            "slug": "a-brief-addendum-on-grafana",
+            "depth": 2,
+            "value": "A Brief Addendum on Grafana"
           }
         ]
       }
@@ -412,32 +391,22 @@
       }
     },
     {
-      "key": "src/src/docs/finance/cornell-stock-pitch/index.md",
+      "key": "src/src/docs/college/stat-495/index.md",
       "value": {
-        "name": "Cornell Stock Pitch Competition: GOOS",
-        "route": "/finance/cornell-stock-pitch-goos",
-        "menu": "Finance",
-        "id": "083ff8839822e61b5cbb95559c94fc10",
-        "filepath": "src/src/docs/finance/cornell-stock-pitch/index.md",
-        "fullpath": "/Users/Alex/projects/portfolio/src/docs/finance/cornell-stock-pitch/index.md",
-        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/finance/cornell-stock-pitch/index.md",
+        "name": "Yelp Dataset Challenge",
+        "route": "/college/yelp-challenge",
+        "menu": "College",
+        "id": "f8ac3249ea9ee154abb29e8f5161ea5a",
+        "filepath": "src/src/docs/college/stat-495/index.md",
+        "fullpath": "/Users/Alex/projects/portfolio/src/docs/college/stat-495/index.md",
+        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/college/stat-495/index.md",
         "hidden": false,
-        "slug": "src-src-docs-finance-cornell-stock-pitch-index",
+        "slug": "src-src-docs-college-stat-495-index",
         "headings": [
           {
-            "slug": "cornell-stock-pitch-competition-goos",
+            "slug": "yelp-dataset-challenge",
             "depth": 1,
-            "value": "Cornell Stock Pitch Competition: GOOS"
-          },
-          {
-            "slug": "thesis-slide",
-            "depth": 2,
-            "value": "Thesis Slide:"
-          },
-          {
-            "slug": "scenario-analysis-slide",
-            "depth": 2,
-            "value": "Scenario Analysis Slide:"
+            "value": "Yelp Dataset Challenge"
           }
         ]
       }
@@ -469,6 +438,37 @@
             "slug": "2-page-pitch",
             "depth": 2,
             "value": "2 Page Pitch"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/src/docs/finance/cornell-stock-pitch/index.md",
+      "value": {
+        "name": "Cornell Stock Pitch Competition: GOOS",
+        "route": "/finance/cornell-stock-pitch-goos",
+        "menu": "Finance",
+        "id": "083ff8839822e61b5cbb95559c94fc10",
+        "filepath": "src/src/docs/finance/cornell-stock-pitch/index.md",
+        "fullpath": "/Users/Alex/projects/portfolio/src/docs/finance/cornell-stock-pitch/index.md",
+        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/finance/cornell-stock-pitch/index.md",
+        "hidden": false,
+        "slug": "src-src-docs-finance-cornell-stock-pitch-index",
+        "headings": [
+          {
+            "slug": "cornell-stock-pitch-competition-goos",
+            "depth": 1,
+            "value": "Cornell Stock Pitch Competition: GOOS"
+          },
+          {
+            "slug": "thesis-slide",
+            "depth": 2,
+            "value": "Thesis Slide:"
+          },
+          {
+            "slug": "scenario-analysis-slide",
+            "depth": 2,
+            "value": "Scenario Analysis Slide:"
           }
         ]
       }
