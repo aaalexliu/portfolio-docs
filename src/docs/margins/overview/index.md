@@ -52,11 +52,16 @@ API infrastructure deployed and managed with Terraform, [link](https://github.co
 
 ## Front End Overview [(Github)](https://github.com/alexliusq/margins-me-frontend)
 
-- Netlify: React + Antd + Apollo + Gatsby
+- Netlify: React + Antd + Emotion + Apollo + Gatsby
     - Antd because Material UI is kind of ugly and I quite like the interfaces of many Ant products, like GaoDe, Alipay, etc.
     - Apollo because although their documentation could be improved, Relay's documentation is worse. Good enough to be used by AWS as part of their client side framework Amplify. Client-side caching, though a pain to implement, improves performance significantly.
     - Gatsby because it's a static site generator that makes sites blazingly fast thanks to out-of-the-box optimizations like prefetching and code-splitting.
 
+### React SPA (/app) Lighthouse Score:
+![App Lighthouse Score](./app-lighthouse.png)
+
+#### Landing Page Lighthouse Score:
+![Landing Page Lightouse Score](./landing-lighthouse.png)
 ## Serverless Microservices Overview [(Github)](https://github.com/alexliusq/margins-services/tree/master/lambdas)
 
 All Lambdas deployed using AWS SAM, [link](https://github.com/alexliusq/margins-services/blob/master/lambdas/template.yaml) to template file. Written in TypeScript.
