@@ -1,19 +1,19 @@
 ---
-name: Time Series and IoT Analytics
+name: IoT and Time Series Analytics
 route: /iot-analytics
 ---
 # Time Series and IoT Analytics
 ## Summary
 
-I helped a startup make an architecture-level shift from a traditional MySQL database to a InfluxDB and Grafana stack. This startup captured viewing data from tens of thousands of Set Top Boxes located in EMEA, and their storage costs and processing times were ballooning dramatically. I conducted research and identified that their business needs were best served by a purpose-built time series database and their rich ecosystem of visualization and processing technologies. Alibaba Cloud's TSDB, based on OpenTSDB, was inadequate for the high-cardinality viewing data the startup was collecting, even after data modeling optimizations. After further research we  found that InfluxDB could overcome this technical roadblock, and after switching, storage size dropped to < 1% of the original MySQL database, queries ran in almost real-time, and Grafana for visualization saved them untold hours of PowerPoint formatting.
+I helped a startup shift their monitoring and analytics from a MySQL database to an InfluxDB and Grafana stack. This startup captured viewing data from 50,000+ of Set Top Boxes in the EMEA, and their storage costs and query times were ballooning dramatically. I researched potential solutions and identified that their business needs were best served by a purpose-built time series database and open source tools. After initially using Alibaba Cloud's TSDB, based on OpenTSDB, we found it was inadequate for the high-cardinality viewing data the startup was collecting, even after data modeling optimizations. After further experimentation we found that InfluxDB could overcome this technical roadblock. Storage size dropped to < 1% of the original MySQL database, queries ran in almost real-time, and Grafana for visualization saved them untold hours of PowerPoint formatting.
 
-## Streams of Data
+## Ceaseless Streams of Data
 
-The startup I was helping had run into a major technical problem. They had pitched a grand vision of collecting viewing information from Set Top Boxes (STBs) to enable better advertising and marketing. The startup's main background was in the embedded software that ran STBs, but now they had over 50,000 STBs sending back viewing data, and they were storing it in a MySQL database. With almost a million rows being written daily, storage was quickly ballooning, but the main problem was that the aggregate statistics they ran using SQL procedures started taking 30+ minutes. The goal was simple. Make their queries faster, ideally real-time, lower their tech costs, and make pretty visualizations automatically.
+The startup had pitched a grand vision of collecting viewing information from Set Top Boxes (STBs), to enable better advertising and marketing. The startup's main expertise was in the embedded software that ran STBs, but now they had over 50,000 STBs sending back viewing data, and they were storing it in a MySQL database. With almost a million rows being written daily, storage was ballooning, but the main problem was that the aggregate statistics they ran using SQL procedures started taking 30+ minutes. The goal was simple. Make their queries faster, ideally real-time, lower their tech costs, and make pretty visualizations automatically.
 
 ### A brief aside on the market for STBs
 
-Americans may wonder who in the world is still buying a Set Top Box and paying for cable. The answer is the Middle East and Africa, and they're definitely not paying for cable. Around 10 years ago when I first moved to China, you could get a STB + a satellite dish, which would receive free satellite broadcasts, but also decrypt paid signals, for a couple hundred RMB, or 20-40 dollars. With the China market approaching near saturation, and global shipments declining, Chinese suppliers in this ferociously cost-competitive industry have set their sights on emerging economies where many consumers want access to broadcast entertainment.
+Americans may wonder who in the world is still buying a Set Top Box and paying for cable. The answer is the Middle East and Africa, and most are definitely not paying for cable. Around 10 years ago when I first moved to China, you could get a STB and a satellite dish, which would receive free satellite broadcasts, but also decrypt paid signals, for a couple hundred RMB, or 20-40 dollars. With the China market approaching near saturation, and global shipments declining, Chinese suppliers in this ferociously cost-competitive industry have set their sights on emerging economies where many consumers want access to broadcast entertainment.
 
 ![Untitled.png](Untitled.png)
 
@@ -56,7 +56,7 @@ The workloads time-series databases are optimized for fit our use case exactly. 
 
 ## From OpenTSDB to InfluxDB
 
-There are [at least 33](https://misfra.me/2016/04/09/tsdb-list/) Time-Series Databases out there, but my choice was simplified thanks to the fact that our startup was already committed to Alibaba Cloud (the best for domestic use cases, though still pales in comparison to AWS), and Alibaba Cloud only had two offerings – their in-house TSDB, built on OpenTSDB, and InfluxDB. We at first went with Alibaba TSDB because they took care of many of OpenTSDB's biggest pain points, such as all the configuration and administration to meet production requirements, weird requirements such as requiring a tag parameter, and offered performance and storage improvements.[^3]
+There are [at least 33](https://misfra.me/2016/04/09/tsdb-list/) Time-Series Databases out there, but my choice was simplified thanks to the fact that the startup was already committed to Alibaba Cloud (the best for domestic China use cases, though still pales in comparison to AWS), and Alibaba Cloud only had two offerings – their in-house TSDB, built on OpenTSDB, and InfluxDB. We at first went with Alibaba TSDB because they took care of many of OpenTSDB's biggest pain points, such as all the configuration and administration to meet production requirements, weird specifications such as requiring a tag parameter, and offered performance and storage improvements.[^3]
 
 OpenTSDB's critical features were:
 
@@ -65,13 +65,15 @@ OpenTSDB's critical features were:
 - An HTTP API and Java client
 - Built-in aggregation functions to summarize data
 
-Immediately, we noticed storage size had dropped to <1% of our original MySQL database, and we quickly moved on to building out a visualization solution using Grafana. What we didn't bank on was OpenTSDB's biggest flaw, it's poor performance with high cardinality datasets. After only a day of test input, queries were taking minutes or just crashing. But first, what is cardinality, and why does it matter for time series databases?
+Immediately, we noticed storage size had dropped to <1% of our original MySQL database, and we quickly moved on to building out a visualization solution using Grafana. What we didn't bank on was OpenTSDB's biggest flaw, it's poor performance with high cardinality datasets. After only a day of test input, queries were taking minutes or just crashing. 
+
+But first, what is cardinality, and why does it matter for time series databases?
 
 ### What is Cardinality?
 
 The mathematical definition of cardinality is the number of elements in a set, but in the world of databases, it refers to the number of unique values for a field or column. For example, if you have a field 'color', and there are possible colors in your dataset are yellow, blue, and green, then that field has a cardinality of 3.
 
-For our use case, we were recording many other high cardinality tags as metadata. This allows a 'metric', or measurement, to be filtered and categorized by tag. For example, we had a tag for the name of the channel, so we can aggregate view time based on whether the channel was Ennehar TV or Al Arabia HD, and we had a tag for the STB's ID, so we could count the number of unique views. Individually, high-cardinality tags don't pose a major issue. However, the cardinality of a time series dataset is determined by the Cartesian product of all input sets. When most metadata values are independent of each other, a quick approximation is the product of each field's cardinality. So if we had 10 devices, and 10 channels, then the cardinality of the dataset would be 10 x 10 = 100.
+For our use case, we were recording many other high cardinality tags as metadata. This allows a 'metric', or measurement, to be filtered and categorized by tag. For example, we had a tag for the name of the channel, so we can aggregate view time based on whether the channel was Ennehar TV or Al Arabia HD, and we had a tag for the STB's ID, so we could count the number of unique views. Individually, high-cardinality tags don't pose a major issue. However, the cardinality of a time series dataset is essentially the number of unique metadata combinations. When most metadata values are independent of each other, a quick approximation is the product of each field's cardinality. So if we had 10 devices, and 10 channels, then the cardinality of the dataset would be 10 x 10 = 100.
 
 This becomes a problem because these tags are indexed to allow for fast queries, so how each time series databases handle these indexes directly impacts performance once cardinality grows. 
 
@@ -79,7 +81,7 @@ This becomes a problem because these tags are indexed to allow for fast queries,
 
 Our problem was that we had multiple high cardinality tags, like location and channel. Surprisingly, Alibaba Cloud TSDB had hard limits on the number of timelines we could write into the database, where each timeline is a unique combination of a metric and is tags. The entry level edition only allowed 2.4 million timelines, and unlimited timelines would've required the Flagship edition, at $3691 a month.[^4] After digging further, we found that Alibaba Cloud TSDB also had Usage Limits for each instance, which cut off queries after certain maximums on number of tags, data points, and timelines, which would significantly complicate scaling.[^5]
 
-Even after attempts to reduce the cardinality of certain tags by changing our data model, like reducing the granularity of location data and standardizing channel names, we were hitting a 100,000 timelines after an hour of data ingestion. Clearly Alibaba Cloud TSDB would be expensive, restrictive, or both with the nature of our use case. After hitting this major roadblock, I decided to take a deeper look at InfluxDB, and felt the type of immense joy you get when some other engineering team has solved the exact problem you've been struggling with.
+Even after attempts to reduce the cardinality of certain tags by changing our data model, like reducing the granularity of location data and standardizing channel names, we were hitting a 100,000 timelines after an hour of data ingestion. Clearly Alibaba Cloud TSDB would be expensive, restrictive, or both with the nature of our use case. After hitting this major roadblock, I decided to take a deeper look at InfluxDB, and felt the kind of immense relief when some other engineering team has solved the problem you've been struggling with.
 
 ### InfluxDB, The Cure for Our Ills
 
@@ -89,7 +91,7 @@ As per InfluxDB documentation[^6]
 
 After testing out an InfluxDB instance, queries that broken TSDB now ran with delays of only seconds. I originally picked Grafana as our visualization/dashboard solution because it was open-source, had a large, active community, and supported dozens of databases natively.
 
-We finished a lot more work building out scalable endpoints to process and write data to InfluxDB, and getting Grafana and its numerous plugins to work, but they were minor hurdles compared to the high-level architectural choices we made through this process of iteration. Thanks to cloud computing and startups like InfluxData, this startup now had slick, real-time proof-of-concept graphs and maps to show off to investors and potential clients.
+We did a lot of other work, such as building out scalable endpoints to process and write data to InfluxDB, and getting Grafana and its numerous plugins to work, but they were minor hurdles. Thanks to cloud computing and startups like InfluxData, this startup now had slick, real-time proof-of-concept graphs and maps to show off to investors and clients.
 
 ![D30BBEAC-AFB1-4B6B-8ACA-BD14C90C0D72.jpeg](D30BBEAC-AFB1-4B6B-8ACA-BD14C90C0D72.jpeg)
 
@@ -101,7 +103,7 @@ Originally, the startup wanted to use Alibaba Cloud's custom BI offerings, which
 
 ![1793BA13-165F-4F08-B86E-21A8408860CD.jpeg](1793BA13-165F-4F08-B86E-21A8408860CD.jpeg)
 
-After trying out a dozen or so frameworks/libraries/tools, I had one lesson drilled into me – none of the features matter you can't get them to work. And to get fix something when its breaks, good documentation and an active community are critical. My experience with Alibaba's documentation and developer community were not ideal, in both English and Mandarin, and I did not want tear my hair out again digging through a labyrinth of incomplete and sometimes incorrect documentation again. Although Grafana wasn't as visually impressive I convinced the startup that they would save themselves immense headaches and costs by using something with complete documentation and an active community.
+After trying out a dozen or so frameworks/libraries/tools, I had one lesson drilled into me – none of the features matter you can't get them to work. And to get fix something when its breaks, good documentation and an active community are critical. My experience with Alibaba's documentation and developer community, in both English and Mandarin, were not ideal, and I did not want tear my hair out again digging through a labyrinth of incomplete and sometimes incorrect documentation again. Although Grafana wasn't as visually impressive I convinced the startup that they would save themselves immense headaches and costs by using something with complete documentation and an active community.
 
 [^1]: [https://blog.timescale.com/blog/what-the-heck-is-time-series-data-and-why-do-i-need-a-time-series-database-dcf3b1b18563/](https://blog.timescale.com/blog/time-series-data-why-and-how-to-use-a-relational-database-instead-of-nosql-d0cd6975e87c/)
 
