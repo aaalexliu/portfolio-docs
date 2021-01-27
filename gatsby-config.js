@@ -12,6 +12,21 @@ module.exports = {
     {
       resolve: 'gatsby-theme-docz'
     },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "G-YK59HW0HJ1"
+        ],
+        gtagConfig: {
+          anonymize_ip: false
+        },
+        pluginConfig: {
+          // Setting this parameter is also optional
+          respectDNT: true,
+        },
+      }
+    },
     // `gatsby-plugin-react-helmet`,
     // {
     //   resolve: `gatsby-source-filesystem`,
