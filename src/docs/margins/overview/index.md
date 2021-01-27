@@ -6,19 +6,15 @@ menu: Margins
 # Overview
 ## The Problem and the Product
 
-Margins is a focused product built on a modern, production-ready tech stack. I wanted to build a product that I would use myself and would solve the same problem for other users. Top of my mind was a tool to help collect, organize, and display the notes I took when reading. I have notes living in my Kindle, [hypothes.is](http://hypothes.is), pdf files, etc. and want to aggregate, organize, and share my notes. [readwise.io](http://readwise.io) is a popular option, but it doesn't support some of the sources I want, and also charges 8 bucks a month for the full set of features. Given Spotify only charges 10 bucks a month, and Netflix Basic only charges 9 dollars a month, and they actually have to pay for content, I wanted to try and see if I could make my own version of Readwise, but cheaper and with features I want. 
+I'm an avid reader and have highlights and notes scattered in my Kindle, [hypothes.is](http://hypothes.is), pdf files, etc. I wanted an easy way to to aggregate, organize, and share my notes.  [readwise.io](http://readwise.io) is a popular option, but it doesn't support some of the sources I want, and also charges 8 bucks a month for the full set of features. Given Spotify only charges 10 bucks a month, and Netflix Basic only charges 9 dollars a month, I wanted to try and see if I could make my own version of Readwise, but cheaper and with features I want. 
 
-## The Architecture
+## Design and Architecture
 
 > Make it work. Make it right. Make it fast. — Kent Beck
 
-> “Architecture is about the important stuff. Whatever that is”. — Martin Fowler, [Who Needs an Architect](https://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf)
+I made it work. Now I want to explain how I made it right. The best way for me to do so is to lift up the cover and show that the system isn't a [Big Ball of Mud](http://www.laputan.org/mud/mud.html).
 
-I made it work. Now I want to explain how I made it right. As Foote and Yoder note, "The architecture that actually predominates in practice has yet to be discussed: the [BIG BALL OF MUD](http://www.laputan.org/mud/mud.html#BigBallOfMud). A [BIG BALL OF MUD](http://www.laputan.org/mud/mud.html#BigBallOfMud) is haphazardly structured, sprawling, sloppy, duct-tape and bailing wire spaghetti code jungle."
-
-I want to demonstrate that I can think through architectural decisions. The best way for me to do so is to show the inner workings of my app and explain how it isn't a Big Ball of Mud.
-
-Each Architecture post documents the key architecture tradeoffs I made for my GraphQL API, Front End, and Serverless Microservices. I'll discuss the benefits and drawbacks of each choice, and why the technology I chose better fit my use case. Tradeoffs discussed include  Apollo vs. Relay, REST vs GraphQL, relational vs. non-relational, Serverless, deployment tools, and more.
+Each Architecture post documents the key tradeoffs I made for my GraphQL API, Front End, and Serverless Microservices. Design decisions discussed include Apollo vs. Relay, Gatsby vs. Next.js, REST vs GraphQL, relational vs. non-relational, Serverless, deployment tools.
 
 - [Architecture: Front End](/margins/front-end)
 - [Architecture: GraphQL API](/margins/graphql-api)
