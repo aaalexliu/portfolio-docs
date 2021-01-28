@@ -110,16 +110,16 @@
       }
     },
     {
-      "key": "src/src/docs/iot-monitoring/index.md",
+      "key": "src/src/docs/iot-analytics/index.md",
       "value": {
-        "name": "Time Series and IoT Analytics",
+        "name": "IoT and Time Series Analytics",
         "route": "/iot-analytics",
-        "id": "57da1f52430efef94f9c5d28b943c503",
-        "filepath": "src/src/docs/iot-monitoring/index.md",
-        "fullpath": "/Users/Alex/projects/portfolio/src/docs/iot-monitoring/index.md",
-        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/iot-monitoring/index.md",
+        "id": "11dedd941098aaa9541ea1ddc9fa42d7",
+        "filepath": "src/src/docs/iot-analytics/index.md",
+        "fullpath": "/Users/Alex/projects/portfolio/src/docs/iot-analytics/index.md",
+        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/iot-analytics/index.md",
         "hidden": false,
-        "slug": "src-src-docs-iot-monitoring-index",
+        "slug": "src-src-docs-iot-analytics-index",
         "menu": "",
         "headings": [
           {
@@ -133,9 +133,9 @@
             "value": "Summary"
           },
           {
-            "slug": "streams-of-data",
+            "slug": "ceaseless-streams-of-data",
             "depth": 2,
-            "value": "Streams of Data"
+            "value": "Ceaseless Streams of Data"
           },
           {
             "slug": "a-brief-aside-on-the-market-for-stbs",
@@ -176,144 +176,6 @@
             "slug": "a-brief-addendum-on-grafana",
             "depth": 2,
             "value": "A Brief Addendum on Grafana"
-          }
-        ]
-      }
-    },
-    {
-      "key": "src/src/docs/margins/front-end.md",
-      "value": {
-        "name": "Architecture: Front End",
-        "route": "/margins/front-end",
-        "menu": "Margins",
-        "id": "cec7ca19a2843e941ce251cf642d7c16",
-        "filepath": "src/src/docs/margins/front-end.md",
-        "fullpath": "/Users/Alex/projects/portfolio/src/docs/margins/front-end.md",
-        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/margins/front-end.md",
-        "hidden": false,
-        "slug": "src-src-docs-margins-front-end",
-        "headings": [
-          {
-            "slug": "architecture-front-end",
-            "depth": 1,
-            "value": "Architecture: Front End"
-          },
-          {
-            "slug": "github-link",
-            "depth": 3,
-            "value": "(Github Link)"
-          },
-          {
-            "slug": "why-apollo-not-relay-and-why-a-graphql-client",
-            "depth": 2,
-            "value": "Why Apollo, not Relay (and why a GraphQL Client)"
-          },
-          {
-            "slug": "apollo-as-a-state-management--data-fetching-solution-vs-redux",
-            "depth": 2,
-            "value": "Apollo as a State Management + Data Fetching Solution (vs. Redux)"
-          },
-          {
-            "slug": "typescript--graphql-code-generator",
-            "depth": 2,
-            "value": "TypeScript + GraphQL Code Generator"
-          },
-          {
-            "slug": "why-gatsby-vs-nextjs",
-            "depth": 2,
-            "value": "Why Gatsby (vs. Next.js)?"
-          }
-        ]
-      }
-    },
-    {
-      "key": "src/src/docs/margins/graphql-api.md",
-      "value": {
-        "name": "Architecture: GraphQL API",
-        "route": "/margins/graphql-api",
-        "menu": "Margins",
-        "id": "00900e5dfdfb92a1a6e84c6d4d930046",
-        "filepath": "src/src/docs/margins/graphql-api.md",
-        "fullpath": "/Users/Alex/projects/portfolio/src/docs/margins/graphql-api.md",
-        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/margins/graphql-api.md",
-        "hidden": false,
-        "slug": "src-src-docs-margins-graphql-api",
-        "headings": [
-          {
-            "slug": "architecture-graphql-api",
-            "depth": 1,
-            "value": "Architecture: GraphQL API"
-          },
-          {
-            "slug": "github-link",
-            "depth": 3,
-            "value": "(Github Link)"
-          },
-          {
-            "slug": "why-relational",
-            "depth": 2,
-            "value": "Why Relational?"
-          },
-          {
-            "slug": "sql-as-the-narrow-waist-for-data-analysis",
-            "depth": 3,
-            "value": "SQL as the \"Narrow Waist\" for Data Analysis"
-          },
-          {
-            "slug": "postgresql-specific-benefits",
-            "depth": 2,
-            "value": "PostgreSQL Specific Benefits"
-          },
-          {
-            "slug": "why-graphql-not-rest-for-a-mainly-crud-api",
-            "depth": 2,
-            "value": "Why GraphQL (not REST) for a mainly CRUD API?"
-          },
-          {
-            "slug": "why-postgraphile-vs-hasura",
-            "depth": 2,
-            "value": "Why PostGraphile (vs Hasura)?"
-          },
-          {
-            "slug": "why-nginx-and-having-a-reverse-proxy",
-            "depth": 2,
-            "value": "Why NGINX (and having a Reverse Proxy)"
-          }
-        ]
-      }
-    },
-    {
-      "key": "src/src/docs/margins/microservices.md",
-      "value": {
-        "name": "Architecture: Serverless Microservices",
-        "route": "/margins/serverless-microservices",
-        "menu": "Margins",
-        "id": "fb9e1595f47853003f1d660e5179f5a8",
-        "filepath": "src/src/docs/margins/microservices.md",
-        "fullpath": "/Users/Alex/projects/portfolio/src/docs/margins/microservices.md",
-        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/margins/microservices.md",
-        "hidden": false,
-        "slug": "src-src-docs-margins-microservices",
-        "headings": [
-          {
-            "slug": "architecture-serverless-microservices",
-            "depth": 1,
-            "value": "Architecture: Serverless Microservices"
-          },
-          {
-            "slug": "github-link",
-            "depth": 3,
-            "value": "(Github Link)"
-          },
-          {
-            "slug": "why-a-serverless-microservice",
-            "depth": 2,
-            "value": "Why A Serverless Microservice?"
-          },
-          {
-            "slug": "sam-vs-serverless-framework",
-            "depth": 2,
-            "value": "SAM vs. Serverless Framework"
           }
         ]
       }
@@ -412,6 +274,144 @@
       }
     },
     {
+      "key": "src/src/docs/margins/front-end.md",
+      "value": {
+        "name": "Architecture: Front End",
+        "route": "/margins/front-end",
+        "menu": "Margins",
+        "id": "cec7ca19a2843e941ce251cf642d7c16",
+        "filepath": "src/src/docs/margins/front-end.md",
+        "fullpath": "/Users/Alex/projects/portfolio/src/docs/margins/front-end.md",
+        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/margins/front-end.md",
+        "hidden": false,
+        "slug": "src-src-docs-margins-front-end",
+        "headings": [
+          {
+            "slug": "architecture-front-end",
+            "depth": 1,
+            "value": "Architecture: Front End"
+          },
+          {
+            "slug": "github-repo",
+            "depth": 3,
+            "value": "(Github Repo)"
+          },
+          {
+            "slug": "why-apollo-not-relay-and-why-a-graphql-client",
+            "depth": 2,
+            "value": "Why Apollo, not Relay (and why a GraphQL Client)"
+          },
+          {
+            "slug": "apollo-as-a-state-management--data-fetching-solution-vs-redux",
+            "depth": 2,
+            "value": "Apollo as a State Management + Data Fetching Solution (vs. Redux)"
+          },
+          {
+            "slug": "typescript--graphql-code-generator",
+            "depth": 2,
+            "value": "TypeScript + GraphQL Code Generator"
+          },
+          {
+            "slug": "why-gatsby-vs-nextjs",
+            "depth": 2,
+            "value": "Why Gatsby (vs. Next.js)?"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/src/docs/margins/graphql-api.md",
+      "value": {
+        "name": "Architecture: GraphQL API",
+        "route": "/margins/graphql-api",
+        "menu": "Margins",
+        "id": "00900e5dfdfb92a1a6e84c6d4d930046",
+        "filepath": "src/src/docs/margins/graphql-api.md",
+        "fullpath": "/Users/Alex/projects/portfolio/src/docs/margins/graphql-api.md",
+        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/margins/graphql-api.md",
+        "hidden": false,
+        "slug": "src-src-docs-margins-graphql-api",
+        "headings": [
+          {
+            "slug": "architecture-graphql-api",
+            "depth": 1,
+            "value": "Architecture: GraphQL API"
+          },
+          {
+            "slug": "github-repo",
+            "depth": 3,
+            "value": "(Github Repo)"
+          },
+          {
+            "slug": "why-relational",
+            "depth": 2,
+            "value": "Why Relational?"
+          },
+          {
+            "slug": "sql-as-the-narrow-waist-for-data-analysis",
+            "depth": 3,
+            "value": "SQL as the \"Narrow Waist\" for Data Analysis"
+          },
+          {
+            "slug": "postgresql-specific-benefits",
+            "depth": 2,
+            "value": "PostgreSQL Specific Benefits"
+          },
+          {
+            "slug": "why-graphql-not-rest-for-a-mainly-crud-api",
+            "depth": 2,
+            "value": "Why GraphQL (not REST) for a mainly CRUD API?"
+          },
+          {
+            "slug": "why-postgraphile-vs-hasura",
+            "depth": 2,
+            "value": "Why PostGraphile (vs Hasura)?"
+          },
+          {
+            "slug": "why-nginx-and-having-a-reverse-proxy",
+            "depth": 2,
+            "value": "Why NGINX (and having a Reverse Proxy)"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/src/docs/margins/microservices.md",
+      "value": {
+        "name": "Architecture: Serverless Microservice",
+        "route": "/margins/serverless-microservice",
+        "menu": "Margins",
+        "id": "fb9e1595f47853003f1d660e5179f5a8",
+        "filepath": "src/src/docs/margins/microservices.md",
+        "fullpath": "/Users/Alex/projects/portfolio/src/docs/margins/microservices.md",
+        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/margins/microservices.md",
+        "hidden": false,
+        "slug": "src-src-docs-margins-microservices",
+        "headings": [
+          {
+            "slug": "architecture-serverless-microservice",
+            "depth": 1,
+            "value": "Architecture: Serverless Microservice"
+          },
+          {
+            "slug": "github-repo",
+            "depth": 3,
+            "value": "(Github Repo)"
+          },
+          {
+            "slug": "why-a-serverless-microservice",
+            "depth": 2,
+            "value": "Why A Serverless Microservice?"
+          },
+          {
+            "slug": "sam-vs-serverless-framework",
+            "depth": 2,
+            "value": "SAM vs. Serverless Framework"
+          }
+        ]
+      }
+    },
+    {
       "key": "src/src/docs/finance/bic/index.md",
       "value": {
         "name": "Boston Investment Conference: CNK",
@@ -497,9 +497,9 @@
             "value": "The Problem and the Product"
           },
           {
-            "slug": "the-architecture",
+            "slug": "design-and-architecture",
             "depth": 2,
-            "value": "The Architecture"
+            "value": "Design and Architecture"
           },
           {
             "slug": "stack-summary",

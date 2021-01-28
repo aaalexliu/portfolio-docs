@@ -32,13 +32,13 @@ Security Headers B Grade: [https://securityheaders.com/?q=api.margins.me&followR
 
 API infrastructure deployed and managed with Terraform, [link](https://github.com/alexliusq/margins-services/blob/master/graphql-api/terraform/main.tf) to full config file.
 
-![Untitled.png](Untitled.png)
+![Terraform Graph](terraform-graph.png)
 
 - RDS db.t2.micro instance, PostgreSQL 10.12
     - Security enforced at the data level with RBAC (Role Based Access Control) and Row Level Security
     - [Link](https://github.com/alexliusq/margins-services/blob/master/graphql-api/db/init/00-schema.sql) to full schema
 
-    ![Untitled1.png](Untitled1.png)
+    ![database-schema.png](database-schema.png)
 
     - Plan to Migrate to Aurora
 - EC2 t2.micro instance, running Docker. Used Docker Compose to deploy.
