@@ -181,99 +181,6 @@
       }
     },
     {
-      "key": "src/src/docs/college/econ-470/index.md",
-      "value": {
-        "name": "Mechanism Design",
-        "route": "/college/econ-470",
-        "menu": "College",
-        "id": "729cded644aa791b3f0cccd4b020d9da",
-        "filepath": "src/src/docs/college/econ-470/index.md",
-        "fullpath": "/Users/Alex/projects/portfolio/src/docs/college/econ-470/index.md",
-        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/college/econ-470/index.md",
-        "hidden": false,
-        "slug": "src-src-docs-college-econ-470-index",
-        "headings": [
-          {
-            "slug": "econ-470-mechanism-design",
-            "depth": 1,
-            "value": "ECON 470: Mechanism Design"
-          },
-          {
-            "slug": "professor-brian-baisa",
-            "depth": 3,
-            "value": "Professor Brian Baisa"
-          },
-          {
-            "slug": "review-of-the-economic-limits-of-bitcoin-and-the-blockchain-by-eric-budish",
-            "depth": 2,
-            "value": "Review of The Economic Limits of Bitcoin and the Blockchain by Eric Budish"
-          },
-          {
-            "slug": "quadratic-voting-meets-groups",
-            "depth": 2,
-            "value": "Quadratic Voting Meets Groups"
-          },
-          {
-            "slug": "introduction",
-            "depth": 3,
-            "value": "Introduction"
-          }
-        ]
-      }
-    },
-    {
-      "key": "src/src/docs/college/hist-419/index.md",
-      "value": {
-        "name": "On Nationalism",
-        "route": "/college/nationalism",
-        "menu": "College",
-        "id": "e51d1d27a9e281bdac2ec7c60cc9df66",
-        "filepath": "src/src/docs/college/hist-419/index.md",
-        "fullpath": "/Users/Alex/projects/portfolio/src/docs/college/hist-419/index.md",
-        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/college/hist-419/index.md",
-        "hidden": false,
-        "slug": "src-src-docs-college-hist-419-index",
-        "headings": [
-          {
-            "slug": "hist-419-on-nationalism",
-            "depth": 1,
-            "value": "HIST 419: On Nationalism"
-          },
-          {
-            "slug": "professor-adi-gordon",
-            "depth": 3,
-            "value": "Professor Adi Gordon"
-          },
-          {
-            "slug": "wechat-china-information-and-communication-technologies-and-nationalism-what-happens-when-nationalism-goes-digital",
-            "depth": 2,
-            "value": "WeChat, China, Information and Communication Technologies, and Nationalism: What Happens When Nationalism Goes Digital?"
-          }
-        ]
-      }
-    },
-    {
-      "key": "src/src/docs/college/stat-495/index.md",
-      "value": {
-        "name": "Yelp Dataset Challenge",
-        "route": "/college/yelp-challenge",
-        "menu": "College",
-        "id": "f8ac3249ea9ee154abb29e8f5161ea5a",
-        "filepath": "src/src/docs/college/stat-495/index.md",
-        "fullpath": "/Users/Alex/projects/portfolio/src/docs/college/stat-495/index.md",
-        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/college/stat-495/index.md",
-        "hidden": false,
-        "slug": "src-src-docs-college-stat-495-index",
-        "headings": [
-          {
-            "slug": "yelp-dataset-challenge",
-            "depth": 1,
-            "value": "Yelp Dataset Challenge"
-          }
-        ]
-      }
-    },
-    {
       "key": "src/src/docs/margins/front-end.md",
       "value": {
         "name": "Architecture: Front End",
@@ -376,17 +283,17 @@
       }
     },
     {
-      "key": "src/src/docs/margins/microservices.md",
+      "key": "src/src/docs/margins/microservice.md",
       "value": {
         "name": "Architecture: Serverless Microservice",
         "route": "/margins/serverless-microservice",
         "menu": "Margins",
-        "id": "fb9e1595f47853003f1d660e5179f5a8",
-        "filepath": "src/src/docs/margins/microservices.md",
-        "fullpath": "/Users/Alex/projects/portfolio/src/docs/margins/microservices.md",
-        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/margins/microservices.md",
+        "id": "253931e817607fe4aca8eca67301a070",
+        "filepath": "src/src/docs/margins/microservice.md",
+        "fullpath": "/Users/Alex/projects/portfolio/src/docs/margins/microservice.md",
+        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/margins/microservice.md",
         "hidden": false,
-        "slug": "src-src-docs-margins-microservices",
+        "slug": "src-src-docs-margins-microservice",
         "headings": [
           {
             "slug": "architecture-serverless-microservice",
@@ -407,6 +314,99 @@
             "slug": "sam-vs-serverless-framework",
             "depth": 2,
             "value": "SAM vs. Serverless Framework"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/src/docs/college/econ-470/index.md",
+      "value": {
+        "name": "Mechanism Design",
+        "route": "/college/econ-470",
+        "menu": "College",
+        "id": "729cded644aa791b3f0cccd4b020d9da",
+        "filepath": "src/src/docs/college/econ-470/index.md",
+        "fullpath": "/Users/Alex/projects/portfolio/src/docs/college/econ-470/index.md",
+        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/college/econ-470/index.md",
+        "hidden": false,
+        "slug": "src-src-docs-college-econ-470-index",
+        "headings": [
+          {
+            "slug": "econ-470-mechanism-design",
+            "depth": 1,
+            "value": "ECON 470: Mechanism Design"
+          },
+          {
+            "slug": "professor-brian-baisa",
+            "depth": 3,
+            "value": "Professor Brian Baisa"
+          },
+          {
+            "slug": "review-of-the-economic-limits-of-bitcoin-and-the-blockchain-by-eric-budish",
+            "depth": 2,
+            "value": "Review of The Economic Limits of Bitcoin and the Blockchain by Eric Budish"
+          },
+          {
+            "slug": "quadratic-voting-meets-groups",
+            "depth": 2,
+            "value": "Quadratic Voting Meets Groups"
+          },
+          {
+            "slug": "introduction",
+            "depth": 3,
+            "value": "Introduction"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/src/docs/college/hist-419/index.md",
+      "value": {
+        "name": "On Nationalism",
+        "route": "/college/nationalism",
+        "menu": "College",
+        "id": "e51d1d27a9e281bdac2ec7c60cc9df66",
+        "filepath": "src/src/docs/college/hist-419/index.md",
+        "fullpath": "/Users/Alex/projects/portfolio/src/docs/college/hist-419/index.md",
+        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/college/hist-419/index.md",
+        "hidden": false,
+        "slug": "src-src-docs-college-hist-419-index",
+        "headings": [
+          {
+            "slug": "hist-419-on-nationalism",
+            "depth": 1,
+            "value": "HIST 419: On Nationalism"
+          },
+          {
+            "slug": "professor-adi-gordon",
+            "depth": 3,
+            "value": "Professor Adi Gordon"
+          },
+          {
+            "slug": "wechat-china-information-and-communication-technologies-and-nationalism-what-happens-when-nationalism-goes-digital",
+            "depth": 2,
+            "value": "WeChat, China, Information and Communication Technologies, and Nationalism: What Happens When Nationalism Goes Digital?"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/src/docs/college/stat-495/index.md",
+      "value": {
+        "name": "Yelp Dataset Challenge",
+        "route": "/college/yelp-challenge",
+        "menu": "College",
+        "id": "f8ac3249ea9ee154abb29e8f5161ea5a",
+        "filepath": "src/src/docs/college/stat-495/index.md",
+        "fullpath": "/Users/Alex/projects/portfolio/src/docs/college/stat-495/index.md",
+        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/college/stat-495/index.md",
+        "hidden": false,
+        "slug": "src-src-docs-college-stat-495-index",
+        "headings": [
+          {
+            "slug": "yelp-dataset-challenge",
+            "depth": 1,
+            "value": "Yelp Dataset Challenge"
           }
         ]
       }
