@@ -47,4 +47,4 @@ For a deep dive into the infrastructure and the architecture tradeoffs I made, y
 
 ## Time Series and IoT Analytics
 
-An overview of a software consulting project where I helped a Chinese startup which wanted to analyze real-time data from tens of thousands of Set Top Boxes build an IoT Analytics stack using Alibaba Cloud's Function Compute, TSDB for InfluxDB, and Grafana.
+An overview of a software consulting project where I helped a China startup which wanted to analyze real-time data from tens of thousands of Set Top Boxes build an IoT Analytics stack using Alibaba Cloud's Function Compute, TSDB for InfluxDB, and Grafana.
