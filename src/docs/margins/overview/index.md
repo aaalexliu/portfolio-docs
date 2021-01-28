@@ -14,11 +14,11 @@ I'm an avid reader and have highlights and notes scattered in my Kindle, [hypoth
 
 I made it work. Now I want to explain how I made it right. The best way for me to do so is to lift up the cover and show that the system isn't a [Big Ball of Mud](http://www.laputan.org/mud/mud.html).
 
-Each Architecture post documents the key tradeoffs I made for my GraphQL API, Front End, and Serverless Microservices. Design decisions discussed include Apollo vs. Relay, Gatsby vs. Next.js, REST vs GraphQL, relational vs. non-relational, Serverless, deployment tools.
+Each Architecture post documents the key tradeoffs I made for my Front End, GraphQL API, and Serverless Microservice. Design decisions discussed include Apollo vs. Relay, why not Redux (yet), Gatsby vs. Next.js, programmatically generating a GraphQL server, relational vs. non-relational, why Serverless, and Serverless deployment tools.
 
 - [Architecture: Front End](/margins/front-end)
 - [Architecture: GraphQL API](/margins/graphql-api)
-- [Architecture: Serverless Microservices](/margins/serverless-microservices)
+- [Architecture: Serverless Microservice](/margins/serverless-microservice)
 
 ## Stack Summary
 
