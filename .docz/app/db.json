@@ -319,6 +319,37 @@
       }
     },
     {
+      "key": "src/src/docs/finance/cornell-stock-pitch/index.md",
+      "value": {
+        "name": "Cornell Stock Pitch Competition: GOOS",
+        "route": "/finance/cornell-stock-pitch-goos",
+        "menu": "Finance",
+        "id": "083ff8839822e61b5cbb95559c94fc10",
+        "filepath": "src/src/docs/finance/cornell-stock-pitch/index.md",
+        "fullpath": "/Users/Alex/projects/portfolio/src/docs/finance/cornell-stock-pitch/index.md",
+        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/finance/cornell-stock-pitch/index.md",
+        "hidden": false,
+        "slug": "src-src-docs-finance-cornell-stock-pitch-index",
+        "headings": [
+          {
+            "slug": "cornell-stock-pitch-competition-goos",
+            "depth": 1,
+            "value": "Cornell Stock Pitch Competition: GOOS"
+          },
+          {
+            "slug": "thesis-slide",
+            "depth": 2,
+            "value": "Thesis Slide:"
+          },
+          {
+            "slug": "scenario-analysis-slide",
+            "depth": 2,
+            "value": "Scenario Analysis Slide:"
+          }
+        ]
+      }
+    },
+    {
       "key": "src/src/docs/college/econ-470/index.md",
       "value": {
         "name": "Mechanism Design",
@@ -355,6 +386,37 @@
             "slug": "introduction",
             "depth": 3,
             "value": "Introduction"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/src/docs/finance/bic/index.md",
+      "value": {
+        "name": "Boston Investment Conference: CNK",
+        "route": "/finance/bic",
+        "menu": "Finance",
+        "id": "e88edb15c5f7184460683a03877eb0ce",
+        "filepath": "src/src/docs/finance/bic/index.md",
+        "fullpath": "/Users/Alex/projects/portfolio/src/docs/finance/bic/index.md",
+        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/finance/bic/index.md",
+        "hidden": false,
+        "slug": "src-src-docs-finance-bic-index",
+        "headings": [
+          {
+            "slug": "boston-investment-conference-pitch-cnk",
+            "depth": 1,
+            "value": "Boston Investment Conference Pitch: CNK"
+          },
+          {
+            "slug": "slides",
+            "depth": 2,
+            "value": "Slides"
+          },
+          {
+            "slug": "2-page-pitch",
+            "depth": 2,
+            "value": "2 Page Pitch"
           }
         ]
       }
@@ -407,68 +469,6 @@
             "slug": "yelp-dataset-challenge",
             "depth": 1,
             "value": "Yelp Dataset Challenge"
-          }
-        ]
-      }
-    },
-    {
-      "key": "src/src/docs/finance/bic/index.md",
-      "value": {
-        "name": "Boston Investment Conference: CNK",
-        "route": "/finance/bic",
-        "menu": "Finance",
-        "id": "e88edb15c5f7184460683a03877eb0ce",
-        "filepath": "src/src/docs/finance/bic/index.md",
-        "fullpath": "/Users/Alex/projects/portfolio/src/docs/finance/bic/index.md",
-        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/finance/bic/index.md",
-        "hidden": false,
-        "slug": "src-src-docs-finance-bic-index",
-        "headings": [
-          {
-            "slug": "boston-investment-conference-pitch-cnk",
-            "depth": 1,
-            "value": "Boston Investment Conference Pitch: CNK"
-          },
-          {
-            "slug": "slides",
-            "depth": 2,
-            "value": "Slides"
-          },
-          {
-            "slug": "2-page-pitch",
-            "depth": 2,
-            "value": "2 Page Pitch"
-          }
-        ]
-      }
-    },
-    {
-      "key": "src/src/docs/finance/cornell-stock-pitch/index.md",
-      "value": {
-        "name": "Cornell Stock Pitch Competition: GOOS",
-        "route": "/finance/cornell-stock-pitch-goos",
-        "menu": "Finance",
-        "id": "083ff8839822e61b5cbb95559c94fc10",
-        "filepath": "src/src/docs/finance/cornell-stock-pitch/index.md",
-        "fullpath": "/Users/Alex/projects/portfolio/src/docs/finance/cornell-stock-pitch/index.md",
-        "link": "https://github.com/alexliusq/portfolio-docs/edit/master/src/src/src/docs/finance/cornell-stock-pitch/index.md",
-        "hidden": false,
-        "slug": "src-src-docs-finance-cornell-stock-pitch-index",
-        "headings": [
-          {
-            "slug": "cornell-stock-pitch-competition-goos",
-            "depth": 1,
-            "value": "Cornell Stock Pitch Competition: GOOS"
-          },
-          {
-            "slug": "thesis-slide",
-            "depth": 2,
-            "value": "Thesis Slide:"
-          },
-          {
-            "slug": "scenario-analysis-slide",
-            "depth": 2,
-            "value": "Scenario Analysis Slide:"
           }
         ]
       }
